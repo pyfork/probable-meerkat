@@ -1,6 +1,6 @@
-# Brief: Write a reply to an invitation
+# Brief: Writing Confidence (write a reply to an invitation)
 
-<!-- project-lead-Opus5.5-agent, 2026-10-03. From the writing spike and the approved teaser (v4). APPROVED by the owner, 2026-10-04. Open question 21 (owner's business details) is deferred to before launch. Payment added from owner's scope note, 2026-10-03; owner page (Verify and Activate tabs) added the same day. -->
+<!-- project-lead-Opus5.5-agent, 2026-10-03. From the writing spike and the approved teaser (v4). APPROVED by the owner, 2026-10-04. Open question 21 (owner's business details) is deferred to before launch. Plans and prices, product names, trial limits and email-code sign-in updated by the owner, 2026-10-04 (open questions 22–24), and APPROVED the same day. Payment added from owner's scope note, 2026-10-03; owner page (Verify and Activate tabs) added the same day. -->
 
 ## Who it's for
 A Malaysian child aged 10 (Year 4), learning English, writing at home on a phone, and the parent who signs them up. Ages 10 only for now; the wider site is for ages 10 to 15.
@@ -11,7 +11,7 @@ Level: the Malaysian KPM (Ministry of Education) standard for Year 4 is the floo
 Children rarely get to practise short writing with a teacher beside them. Free worksheets give no help while writing and no feedback after. Parents can't tell whether the answer was good or what to fix.
 
 ## What should happen
-- A parent starts a free 3-day trial and adds one child. The child can start writing straight away on the parent's phone or computer.
+- A parent starts a free 3-day trial with their email: they type it, get a 6-digit code by email, and type the code in. No password. Signing in later (a new phone, or after signing out) works the same way: email, then a 6-digit code. The phone stays signed in, so the child just opens the site. Then the parent adds one child. The child can start writing straight away on the parent's phone or computer.
 - The child does a set of 3 short tasks, one at a time. Each task is an invitation: "Your friend invites you to join her to go to the beach. Would you like to go? Give TWO reasons." The person, the place and the wording change from task to task.
 - The child writes about 50 words on lined paper. A hint shows how to start: "Yes, I would like to go to {place} because…" or "No, I don't want to go to {place} because…". Both yes and no answers are fine.
 - Idea words help a child who is stuck: words that fit this task's place and activities (for the beach: swim, sandcastle, seashells). There are idea words for a yes answer and for a no answer. The owner writes them for each task, in the database.
@@ -32,9 +32,18 @@ Children rarely get to practise short writing with a teacher beside them. Free w
 - Answers are saved, so nothing is lost if the page closes.
 - Calm and simple. No timer, no score to beat, no ranking.
 
+### Plans and prices
+<!-- project-lead-Opus5.5-agent: owner, 2026-10-04. Launch as two products: Writing Confidence and Spelling Confidence. -->
+- **Writing Confidence:** RM59 for 12 months, or RM45 for 6 months. 3 days free first.
+- The 12-month Writing Confidence plan includes Spelling Confidence free. The 6-month plan is writing only.
+- **Spelling Confidence on its own:** RM39 for 12 months, RM29 for 6 months, or RM11 for 1 month. See `spelling-confidence.md`.
+- No plan renews by itself.
+
 ### Paying after the trial
 - The free trial lasts up to 3 days. The child can do tasks any time during those days.
-- The pay page shows a short how-to guide: save or scan the DuitNow QR, pay RM59 for a 12-month subscription to KIP ADVISORS, type your own payment code in the bank's Reference box, then screenshot the receipt.
+- During the trial the child gets 2 sets a day (3 tasks each, so 6 tasks a day). The trial sets are fixed: the same 2 sets for every trial user, every day (owner, 2026-10-04). A new account, clearing cookies or a VPN gives no new questions.
+- Feedback is still written for every trial answer, so a repeated set gets fresh feedback on the new answer.
+- The pay page shows a short how-to guide: save or scan the DuitNow QR, pick a plan and pay its price to KIP ADVISORS, type your own payment code in the bank's Reference box, then screenshot the receipt.
 - Each parent gets their own payment code: # and 6 digits, counting up from #160131 (the first parent gets #160131, the next #160132). It shows on the pay page with a Copy button. If a bank won't accept the #, the parent types just the digits.
 - The parent sends the receipt: the screenshot, the transaction number, their name, their email, and a WhatsApp number (optional).
 - The email field starts filled with the parent's account email. The form and the "Payment receipt received" screen both name that email: "we'll send your subscription activation to {parent's email}". If the parent changes the field, the named email changes with it.
@@ -54,7 +63,7 @@ A private page only the owner can open, with five tabs: Verify, Activate, Feedba
 
 **Verify tab**
 - A table of receipts waiting to be verified, newest first.
-- Each row shows: payment code, parent name, email, child's name, phone number, and a link to view the receipt screenshot.
+- Each row shows: payment code, plan and amount, parent name, email, child's name, phone number, and a link to view the receipt screenshot.
 - The owner checks the payment code in the RHB transactions list, then clicks Confirm on that row.
 - Confirm marks the payment as verified. The row leaves the Verify tab and appears in the Activate tab.
 - Confirm sends nothing to the parent.
@@ -64,7 +73,7 @@ A private page only the owner can open, with five tabs: Verify, Activate, Feedba
 - A table of verified parents only.
 - Each row has an Activate button.
 - The owner can tick one row, several rows, or all rows, and activate them in one go.
-- Activate starts the 12-month subscription from that day and sends the parent's confirmation email with the start and end dates.
+- Activate starts the parent's plan (its 6 or 12 months) from that day and sends the parent's confirmation email with the start and end dates.
 - After Activate, an Undo shows for 30 seconds. The confirmation email waits until the 30 seconds are over, so an undone activation sends nothing.
 - After a bulk Activate, the one Undo reverses the whole selected list.
 - Undo puts the parents back in the Activate tab, still verified.
@@ -115,7 +124,7 @@ A private page only the owner can open, with five tabs: Verify, Activate, Feedba
 - Parent places only. Never on the child's screens. Parents are asked in three places:
   1. The activation email: a "Help other students" line.
   2. The parent's screen, after the child finishes their 5th set: a "Help other students" card. It stays there until the parent sends a review.
-  3. A thank-you email after 23 days of active use: "Hope {child's name} is enjoying Puascari's Learn English", a quick progress report, then "Here's how you can help others enjoy learning to write with confidence in English", linking to this page. Sent once, and not sent if the parent has already sent a review.
+  3. A thank-you email after 23 days of active use: "Hope {child's name} is enjoying Writing Confidence", a quick progress report, then "Here's how you can help others enjoy learning to write with confidence in English", linking to this page. Sent once, and not sent if the parent has already sent a review.
 - Also linked from the pay page footer and the Support page.
 - Active use: a day counts as active when the child submits at least one task that day. The 23 days are counted from activation and don't need to be in a row.
 - The quick progress report in that email: tasks done, active days, average words per answer in the first week compared with the last week, how often the answer had two reasons, one thing the child now does well, and one thing to work on next. Written for parents, in plain words.
@@ -123,8 +132,8 @@ A private page only the owner can open, with five tabs: Verify, Activate, Feedba
 
 ### Terms of Subscription page
 - A Terms of Subscription page, linked from the pay page ("By sending your receipt, you agree to the Terms of Subscription"), the Support page and the footer.
-- Covers: who we are (Kip Advisors, registration number, address), what the parent gets, the free trial, price and payment (RM59, 12 months from activation, no automatic renewal), cancellation and refunds, using the service, AI-written teacher feedback, the child's work and personal data, reviews, changes, the parent's rights and disputes, and contact details.
-- Cancellation and refunds follow the Consumer Protection Act 1999 (s.17). A parent can cancel at any time. Months run from the activation date and a started month counts as used. Refund = RM59 × full months left ÷ 12 − RM2.95, within 14 days, never below RM0. The page shows a month-by-month refund table. A blanket "no refunds" term is not allowed.
+- Covers: who we are (Kip Advisors, registration number, address), what the parent gets, the free trial, plans and prices (see Plans and prices; each plan runs from activation, no automatic renewal), cancellation and refunds, using the service, AI-written teacher feedback, the child's work and personal data, reviews, changes, the parent's rights and disputes, and contact details.
+- Cancellation and refunds follow the Consumer Protection Act 1999 (s.17). A parent can cancel at any time. Months run from the activation date and a started month counts as used. Refund = plan price × full months left ÷ plan months − 5% of the plan price (RM2.95 on the RM59 plan), paid within 30 days of the cancellation, never below RM0. The page shows a month-by-month refund table. A blanket "no refunds" term is not allowed.
 - A Bahasa Malaysia version sits beside the English one.
 - A Privacy Notice in Bahasa Malaysia and English is needed too (Personal Data Protection Act 2010), with the parent's consent for their child's data.
 - The terms are checked by a Malaysian lawyer before launch.
@@ -134,7 +143,7 @@ A private page only the owner can open, with five tabs: Verify, Activate, Feedba
 Card or online-banking payment (only QR transfer plus receipt for now). Renewal reminders before the end date. A second child. Other kinds of writing (emails, stories). A parent progress page. Malay text. Schools and teachers. The reading sheets, which are a separate later product (`specs/later/language-practice/`).
 
 ## Anything to match
-Name: "Puascari's Learn English" (short form "Learn English" after the first mention). Address: puascari.com/learnenglish.
+Site name: "Learn English at Puascari.com" (short form "Learn English"). Products: "Writing Confidence" (this brief) and "Spelling Confidence" (`spelling-confidence.md`). Address: puascari.com/learnenglish.
 Every page and email ends with a quiet footer: "Learn English is brought to you by Kip Advisors".
 The approved teaser (v4): a calm, light page, with the retro task card (ink border, flat shadow, small Mario-colour touches) and the teacher notes with a smiley. The CTA is "Try 3 days for free". The credit line is "Created by Cikgu Ahmad, a CELTA-certified English teacher." Fonts: Manrope on the page, Nunito on the task card. The prototype is the writing spike (kept privately).
 
@@ -163,3 +172,6 @@ All task text, hints, nudges and feedback lines live in the database, never in t
 19. ~~Add a small parent page?~~ Answered by the owner, 2026-10-04: yes. See "Parent page".
 20. ~~Refunds?~~ Answered by the owner, 2026-10-04: keep RM59 for 12 months. A parent can cancel at any time (Consumer Protection Act 1999, s.17). Subscription months run from the activation date; a month counts as used from its first day, with no part-month refunds. The refund is the full months after the current one, up to the end date, minus a 5% charge (RM2.95), paid within 14 days and never below RM0. A Malaysian lawyer checks the terms before launch.
 21. Owner's details for the Terms page (Kip Advisors' registration number, business address, support email, phone number): the owner gives them later, 2026-10-04. They go into the Terms page only, never into this public repository. Needed before launch.
+22. ~~Plans, prices and names at launch?~~ Answered by the owner, 2026-10-04: two products, Writing Confidence and Spelling Confidence, on "Learn English at Puascari.com". Writing Confidence is RM59 for 12 months (Spelling Confidence included free) or RM45 for 6 months, with 3 days free. Spelling Confidence alone is RM39 for 12 months, RM29 for 6 months or RM11 for 1 month. Refunds are now paid within 30 days of the cancellation (was 14 days). This replaces the single RM59 plan in answers 4 and 20 and the name in answer 18.
+23. ~~Should the writing trial be limited?~~ Answered by the owner, 2026-10-04: 2 sets a day (3 tasks each) for the 3 days, always the same 2 fixed sets, so cheating the trial gives no new questions.
+24. ~~How does a parent sign up and sign in?~~ Answered by the owner, 2026-10-04: both with a 6-digit code sent to their email, no password. A new email only gets the same fixed trial sets, so fake emails gain nothing. A limit on sign-ups from one network stops a script from making hundreds of accounts.
