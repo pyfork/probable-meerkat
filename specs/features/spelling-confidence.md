@@ -56,10 +56,11 @@ Part 5 of the Year 4 English paper tests spelling: a clue, the first letter, one
 - Listen plays one simple sentence with the word, read twice. The second reading stresses the word.
 - Two recorded voices (British, one female, one male) take turns from card to card. Each debrief starts with a random one. Children never choose a voice.
 - Words spelled right are listed under "You spelled these right".
+- **Also right** (owner, 2026-10-05): a word can have a short list of other answers that truly fit its clue, first letter and number of boxes, approved by the owner. A correctly spelled "also right" answer counts as right in both modes (score and bonus qualifying). Its debrief card is friendly: "{answer} is right too! The word we were thinking of is {word}", with the Listen sentence for the target word.
 - Then: "Practise these words again" or "Next task".
 
 ### Remembering words (for each child)
-- Every word the child meets sits in a box for that child (Leitner boxes). Right: up one box. Wrong: back to box 1. Right with a hint: stays in the same box.
+- Every word the child meets sits in a box for that child (Leitner boxes). Right: up one box. Wrong: back to box 1. Right with a hint, or an "also right" answer: stays in the same box.
 - Words in lower boxes come back sooner. Words in higher boxes come back later.
 - A word that comes back shows a different clue and sentence when one exists (new context). Each word gets 2–3 clues and sentences over time.
 
@@ -113,3 +114,4 @@ All answered by the owner, 2026-10-04.
 6. ~~Product names?~~ Answered by the owner, 2026-10-04: the site is "Learn English at Puascari.com", with two products, Writing Confidence and Spelling Confidence. The writing brief is updated.
 7. ~~Word list 2: how big, when, and what split?~~ Answered by the owner, 2026-10-04: 300 words, starting once list 1 is met and about 8 in 10 are known well, then 30 : 70 old to new.
 8. ~~Start screen wording?~~ Answered by the owner, 2026-10-04: "Spelling Confidence", "Spell 8 words per round. Get them right, unlock a bonus round.", "Ready for today's round?". No greeting.
+9. ~~What if another real word fits the clue?~~ Answered by the owner, 2026-10-05: accept it as "also right" (owner-approved list per word), rather than dropping the target word.
