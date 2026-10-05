@@ -1,6 +1,6 @@
 # Brief: Spelling Confidence
 
-<!-- project-lead-Opus5.5-agent, 2026-10-05. DRAFT for the owner's re-approval. Rewritten from the approved brief of 2026-10-04 (with "also right", 2026-10-05)
+<!-- project-lead-Opus5.5-agent, 2026-10-05. APPROVED by the owner, 2026-10-05 ("go"). Rewritten from the approved brief of 2026-10-04 (with "also right", 2026-10-05)
      and the decisions of 2026-10-05. Shared parts moved to their own briefs; "How it is built" moved to the plan. History: specs/decisions/spelling-confidence.md. -->
 
 Words follow `specs/glossary.md`. Every-page rules: `site-rules.md`. Sign-up: `accounts-and-sign-in.md`. Trial, plans and payment: `plans-and-payment.md`. Admin's screens: `admin-page.md`. Parent page and emails: `parents-support-and-reviews.md`. Every number marked (TS) is a Teaching setting; its value lives only in `admin-page.md`.
