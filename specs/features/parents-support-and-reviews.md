@@ -6,14 +6,14 @@
 Words follow `specs/glossary.md`. Rules for every page are in `site-rules.md`.
 
 ## Who it's for
-Parents. Everything in this brief is in parent places only: the parent page, the pay page footer and emails. Never on the child's screens, so a child can't send reports or reviews by tapping around.
+Parents. Everything in this brief lives in parent places: the parent page, the pay page footer and emails. The child's screens show only a quiet "Parent" link, so a child could open the parent page; that is why anything that changes the account needs an email code (delete, change email, add a backup email, sign out on all devices), and reports and reviews have daily limits.
 
 ## What should happen
 
 ### Parent page
 - Reached from a quiet "Parent" link at the top of the child's screens (once the parent has signed up).
 - Shows each plan: product, start date and end date. During a trial it shows the trial time left (for example "2 days 5 hours left") and a Subscribe button instead.
-- Shows the "Help other students" card once the child has finished 5 writing sets, until the parent sends a review.
+- Shows the "Help other students" card once the child has finished 5 writing sets or 10 spelling rounds, until the parent sends a review.
 - Links to Report an issue, Help other students, the Terms of Subscription and the Privacy Notice.
 - **Backup email:** add or change it (see `accounts-and-sign-in.md`).
 - At the bottom, small and quiet: **"Delete my account and data"**. Tapping it explains in plain words what is deleted (the account and all the child's work) and what is kept and why (payment records, 7 years, by law). The parent types DELETE to confirm, then enters an email code, so neither a slip nor a child tapping around can do it. The request goes to Admin's Parents tab as "Deletion requested" with a due date 21 days later, and the parent sees "Your request is received. We'll email you when it's done."
@@ -29,13 +29,13 @@ Parents. Everything in this brief is in parent places only: the parent page, the
 ### Help other students (reviews)
 - A page that asks parents for a text review or a video, so other students can also improve their English.
 - Step 1, explain: why a review helps other children, the two ways to help (a short review, a short video), and that the owner reads every review before anything is shared.
-- Step 2, review: a text box (up to 600 characters) and/or a video upload (up to 1 minute, from the phone's gallery). At least one is needed. A name to show (first name is fine). A tick box to agree that the owner may share it on the website and social media, and, if the child appears in the video, the parent's consent for the child.
+- Step 2, review: a text box (up to 600 characters) and/or a video upload (up to 1 minute, a common phone video format, up to 150 MB, with a progress bar while it uploads; stored privately so only Admin can watch it until approved). At least one is needed. A name to show (first name is fine). A tick box to agree that the owner may share it on the website and social media, and, if the child appears in the video, the parent's consent for the child.
 - Step 3, thank you: thanks by name, and a link to follow Cikgu Ahmad on Threads (https://www.threads.com/@cikgucelta).
 - Nothing is shared until Admin approves it (Reviews tab).
 - Also linked from the pay page footer and the Report an issue page.
 
 ### Emails to parents
-All emails come from the site's address with Reply-To support@puascari.com, and every subject carries the payment code or report number (see `admin-page.md`).
+All emails come from the site's address with Reply-To support@puascari.com, and every subject carries the payment code or report number (see `admin-page.md`). Emails that ask for a review (the activation email's review line and the 23-day email) carry "Don't send me requests like this"; account emails always go.
 
 | Email | When | What it says |
 |---|---|---|
@@ -48,7 +48,7 @@ All emails come from the site's address with Reply-To support@puascari.com, and 
 
 ### The 23-day thank-you email
 - "Hope {child's name} is enjoying Learn English", a quick progress report, then "Here's how you can help others enjoy learning to write with confidence in English", linking to Help other students.
-- Writing part: tasks done, active days, average words per answer in the first week compared with the last week, how often the answer had two reasons, one thing the child now does well, and one thing to work on next.
+- Writing part: tasks done, active days, average words per answer in the first week compared with the last week, how often the answer had two reasons, one thing the child now does well, and one thing to work on next. The model writes those last two lines from the child's recent feedback, through the child-safety check, falling back to the owner's fixed lines.
 - Spelling part: words practised, confident words, and words still to practise.
 - A parent with both products gets one email with both parts.
 - Written for parents, in plain words. No levels, list names or placement.
@@ -58,7 +58,8 @@ All emails come from the site's address with Reply-To support@puascari.com, and 
 |---|---|
 | Activated 5 Oct; the child writes on 15 days in October and 8 in November, the 23rd on 20 Nov | The thank-you email goes on 20 Nov |
 | The parent sent a review on 1 Nov | No thank-you email on 20 Nov |
-| The child finishes their 5th writing set | The "Help other students" card appears on the parent page and stays until a review is sent |
+| The child finishes their 5th writing set (or 10th spelling round) | The "Help other students" card appears on the parent page and stays until a review is sent |
+| The parent taps "Don't send me requests like this" | No more review requests; account emails still arrive |
 | A parent sends a 6th report in one day | The form says they can send more tomorrow |
 
 ## Out of scope

@@ -10,3 +10,4 @@
 - No phone number; parents use Report an issue and the support email. (2026-10-05)
 - Cancel requests come through Report an issue. (2026-10-05)
 - "Delete my account and data": a quiet button on the parent page (not a Report an issue choice), explains what is deleted and kept, confirmed with an email code; Admin finishes within 21 days. Cancel requests still come through Report an issue. (2026-10-05)
+- Senior engineer fixes (owner gwl, 2026-10-05): the parent page can be opened from the child's screens, so account changes need an email code; review requests carry an opt-out; the model writes the 23-day email's two child lines with the safety check and fixed-line fallback; the review card also after 10 spelling rounds; review videos up to 150 MB, private until approved, with a progress bar.
