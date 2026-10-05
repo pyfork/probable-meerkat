@@ -64,7 +64,7 @@ Part 5 of the Year 4 English paper tests spelling: a clue, the first letter, one
 - Every word the child meets sits in one of 5 boxes for that child (Leitner boxes). New words start in box 1. The child never sees the boxes.
 - **Right:** up one box. **One letter wrong, missing or extra** (a near miss): down one box, never below box 1. **A bigger mistake:** back to box 1. **Right with a hint, an "also right" answer, or an American spelling:** stays in the same box.
 - Only the **first try** of a word in a Fun or Exam round moves its box. "Practise these words again" rounds are practice and don't move boxes.
-- The higher the box, the longer before the word comes back (return times in Teaching settings): box 1 the next round, box 2 after 1 day, box 3 after 3 days, box 4 after 7 days, box 5 after 14 days.
+- The higher the box, the longer before the word comes back (return times: TS). The worked example below uses the defaults.
 - A word that comes back shows a different clue and sentence when one exists. Each word has up to 3 versions; the original always comes first.
 - A child's old answers always show the clue and sentence they actually saw.
 
