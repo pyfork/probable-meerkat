@@ -15,3 +15,4 @@
 - Senior engineer fixes (owner gwl, 2026-10-05): daily to-do email with legal-deadline reminders; Download family data; works on a phone; failed emails shown with Resend and delayed emails survive restarts; typed confirmation for Delete this family and Move to a new email (and the parent types DELETE); Numbers state their periods; Teaching settings list safe ranges with Back to default.
 - Second senior pass (owner gwl, 2026-10-05): setting-change markers on Numbers; test families excluded from Numbers, reminders and emails; Download payments by month for the accountant; search by payment code and child's first name; admin allow-list changed only by a server command.
 - Launch day vs soon after split (owner gwl, 2026-10-05). Admin page brief APPROVED (owner, 2026-10-05).
+- Numbers gains "Help me use" (from the writing brief's fix, 2026-10-05; check-on-change habit: told the owner).

@@ -67,6 +67,7 @@ How we know the products work. Each measure states its period. Every Teaching se
 | **Writing gets better:** for children who reached their 4th week in the last 30 days, the share of answers with Yes/No, 2 reasons and about 50 words, their week 1 compared with their week 4 | Is it teaching? |
 | **Is the model's feedback good enough?** Of the random answers checked in the last 4 weeks (10 a week), how many Admin had to fix | Is the feedback right? |
 | **Confident words:** new confident words per spelling child last calendar month | Is spelling sticking? |
+| **Help me use:** in the last 4 weeks, how often Help me appeared and how often it was opened (writing) | Is the Help time right? |
 
 ### Parents
 - **"Download payments"** for any month: every payment, refund and plan as a spreadsheet, for the accountant and tax.
