@@ -1,6 +1,6 @@
 # Brief: Writing Confidence (reply to an invitation)
 
-<!-- project-lead-Opus5.5-agent, 2026-10-05. DRAFT for the owner's re-approval. Rewritten from the approved brief of 2026-10-04 with every decision of
+<!-- project-lead-Opus5.5-agent, 2026-10-05. APPROVED by the owner, 2026-10-05 ("next"). Rewritten from the approved brief of 2026-10-04 with every decision of
      2026-10-04 and 2026-10-05. Shared parts moved to their own briefs (one fact, one place). History: specs/decisions/writing-confidence.md. -->
 
 Words follow `specs/glossary.md`. Every-page rules: `site-rules.md`. Sign-up: `accounts-and-sign-in.md`. Trials, plans and payment: `plans-and-payment.md`. Admin's screens: `admin-page.md`. Parent page, reports and emails: `parents-support-and-reviews.md`. Every number marked (TS) is a Teaching setting; its value lives only in `admin-page.md`.
