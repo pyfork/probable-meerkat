@@ -18,6 +18,8 @@ Eight tabs: **Verify, Activate, Answers, Reviews, Reports, Numbers, Parents, Con
 - **Works on a phone:** on a small screen each row becomes a card with big buttons, so Admin can check payments with the bank app open alongside.
 - **Daily to-do email** to Admin each morning, for example "3 receipts to verify · 2 reports · 1 refund due tomorrow · 1 deletion due in 3 days". Anything with a legal deadline (refunds 30 days, deletions and data requests 21 days) gets a reminder 3 days before and on the day. Nothing waiting: no email.
 - **Emails that fail:** a row whose email didn't arrive shows "Email didn't arrive" with **Resend**. Delayed emails (like activation after its 30-second Undo) still go out after a server restart.
+- **Test families:** Admin can mark a family as "test" to try things as a child. Test families' answers, payments and emails never count in Numbers, never trigger reminders or the to-do email, and can be cleared in one go.
+- **Admin email lost:** the admin allow-list can only be changed by a command run on the server, never from a web page. The steps are kept in the owner's private notes.
 - **Dangerous actions are hard to press by accident:** "Delete this family" and "Move to a new email" ask Admin to type the parent's email to confirm.
 
 ### Verify
@@ -56,7 +58,7 @@ Eight tabs: **Verify, Activate, Answers, Reviews, Reports, Numbers, Parents, Con
 - **"Mark sorted"** clears a report once it is dealt with.
 
 ### Numbers
-How we know the products work. Each measure states its period. Targets are set after the first month of real data and kept in the owner's private notes.
+How we know the products work. Each measure states its period. Every Teaching settings change shows as a small marker on the Numbers (for example "12 Nov: Help time 6 → 10 s"), so a jump in results can be traced to its cause. Targets are set after the first month of real data and kept in the owner's private notes.
 
 | Measure | What it tells Admin |
 |---|---|
@@ -67,7 +69,8 @@ How we know the products work. Each measure states its period. Targets are set a
 | **Confident words:** new confident words per spelling child last calendar month | Is spelling sticking? |
 
 ### Parents
-- Search a parent by email. Each family shows: plan(s), start and end dates or trial time left, payments, and the child.
+- **"Download payments"** for any month: every payment, refund and plan as a spreadsheet, for the accountant and tax.
+- Search finds a family by account email, backup email, payment code (for example #1601319) or child's first name (all matches shown). Each family shows: plan(s), start and end dates or trial time left, payments, and the child.
 - **Placement** (writing): the child's level (Weaker, Average or Stronger), since when, and why (for example "average 2.3 stars over the last 3 sets"), plus a history of changes. **"Reset placement"** puts the child back to Average and clears the window, so the next set counts as their first. The child sees nothing. A **"Weaker"** filter shows who is on the Guided paper now.
 - **"Reset code limit"**, **"Resend activation email"** and **"Move to a new email"** (after Admin has checked the parent is the payer; see `accounts-and-sign-in.md`).
 - **"Cancel plan":** a box shows the plan, activation date, the date the parent asked (Admin can change it), the month now in (counts as used), full months left, the refund worked out with the formula, the last day the child can go on, and the pay-by date (30 days). Confirming ends the plan and emails the parent the same figures. When the refund is RM0 the box says "No refund due".
