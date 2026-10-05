@@ -59,7 +59,7 @@ How we know the products work. Targets are set after the first month of real dat
 | **Confident words** per spelling child per month | Is spelling sticking? |
 
 ### Parents
-- Search a parent by email. Each family shows: plan(s), start and end dates or trial days left, payments, and the child.
+- Search a parent by email. Each family shows: plan(s), start and end dates or trial time left, payments, and the child.
 - **Placement** (writing): the child's level (Weaker, Average or Stronger), since when, and why (for example "average 2.3 stars over the last 3 sets"), plus a history of changes. **"Reset placement"** puts the child back to Average and clears the window, so the next set counts as their first. The child sees nothing. A **"Weaker"** filter shows who is on the Guided paper now.
 - **"Reset code limit"** and **"Resend activation email"**.
 - **"Cancel plan":** a box shows the plan, activation date, the date the parent asked (Admin can change it), the month now in (counts as used), full months left, the refund worked out with the formula, the last day the child can go on, and the pay-by date (30 days). Confirming ends the plan and emails the parent the same figures. When the refund is RM0 the box says "No refund due".

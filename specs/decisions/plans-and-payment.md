@@ -14,3 +14,4 @@
 - Cancelling: worked out before confirming; the child goes on until the end of the month used. (2026-10-05)
 - Trial or plan ending mid-set: finish the current task, then pause. (2026-10-05)
 - Spelling trial rounds mix the lists 30 : 70. Writing trial sets are separate from the paid sets. (2026-10-05)
+- Writing trial = 72 hours from sign-up (owner, 2026-10-05), replacing "up to 3 days". Grace time written as 48 hours to match (lead, flagged for the owner).

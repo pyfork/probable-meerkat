@@ -26,7 +26,7 @@ Parents pay by DuitNow QR transfer. The bank gives no automatic confirmation, so
 - A parent can pay from day 1 of a trial. Paying early doesn't shorten the trial. The plan starts on the day Admin activates it.
 
 ### Free trials
-- **Writing Confidence:** up to 3 days, starting at sign-up. The child gets 2 sets a day. The trial sets are fixed: the same 2 sets for every trial user, every day, kept separate from the paid sets so a paying child never redoes them. Feedback is still written for every trial answer.
+- **Writing Confidence:** 72 hours from the moment of sign-up (owner, 2026-10-05). The child gets 2 sets a day (Malaysia-time days) within those hours. The trial sets are fixed: the same 2 sets for every trial user, every day, kept separate from the paid sets so a paying child never redoes them. Feedback is still written for every trial answer.
 - **Spelling Confidence:** 3 rounds, 2 in Fun mode and 1 in Exam mode, with no sign-up. The rounds are fixed: the same 24 words for every trial user, every day. They mix word list 1 and word list 2 at 30 : 70 (2 or 3 list 1 words a round). The trial has the full round: help in Fun mode, the bonus round, marking and the debrief with Listen. Nothing is remembered for the child during the trial (no boxes).
 - Clearing cookies, a new browser, a new email or a VPN gives nothing new, so there is no reason to cheat a trial.
 
@@ -45,8 +45,8 @@ Parents pay by DuitNow QR transfer. The bank gives no automatic confirmation, so
 - Wording: standard subscription terms (Subscription activated, payment verified, start date, end date). Avoid "year" and "match".
 
 ### While a payment is being checked
-- Once a receipt is sent, the child can keep going for up to 2 days after the trial ends.
-- If those 2 days pass before activation, the child's tasks pause. The parent sees that the payment is still being checked and the activation will be sent to their email.
+- Once a receipt is sent, the child can keep going for 48 hours of grace time after the trial ends.
+- If the grace time runs out before activation, the child's tasks pause. The parent sees that the payment is still being checked and the activation will be sent to their email.
 - Without a receipt, the child's tasks pause when the trial ends, and the parent sees the pay page.
 - Nothing the child did is ever lost.
 
@@ -57,7 +57,7 @@ Parents pay by DuitNow QR transfer. The bank gives no automatic confirmation, so
 
 ### Payment problems
 - **Possible double payment:** the same plan for the same child paid again while it is active or waiting. Admin checks with the parent first, because a second payment is often a second product or an early renewal. If it really is a double payment, the extra amount is refunded in full, with no 5% charge.
-- **Wrong amount, code not found, or receipt unclear:** Admin sends a "Problem with this payment" email with the reason and an optional note. The parent's receipt form opens again. The 2 extra days still count from the first receipt.
+- **Wrong amount, code not found, or receipt unclear:** Admin sends a "Problem with this payment" email with the reason and an optional note. The parent's receipt form opens again. The grace time still counts from the first receipt.
 
 ### Cancelling and refunds
 - Follows the Consumer Protection Act 1999 (s.17). A blanket "no refunds" term is not allowed.
@@ -103,13 +103,13 @@ Parents pay by DuitNow QR transfer. The bank gives no automatic confirmation, so
 | RM59 writing paid twice the same day | "Possible double payment" | Admin checks; the extra RM59 is refunded in full |
 | RM59 writing paid again 2 weeks before the end date | "Possible double payment" | Admin checks; usually an early renewal, kept |
 
-**Trial and grace**
-| Day | Receipt sent? | The child can… |
+**Trial and grace** (sign-up Monday 11pm, so the trial ends Thursday 11pm)
+| When | Receipt sent? | The child can… |
 |---|---|---|
-| Trial days 1–3 | any | do the trial |
-| Day 4 | yes (on day 2) | keep going (grace day 1) |
-| Day 6 | yes, not yet activated | tasks paused; the parent sees "still being checked" |
-| Day 4 | no | tasks paused; the parent sees the pay page |
+| Monday 11pm to Thursday 11pm | any | do the trial: 2 sets on each Malaysia-time day (Monday's last hour counts as Monday) |
+| Friday 10am | yes (on Tuesday) | keep going (grace time, until Saturday 11pm) |
+| Sunday 9am | yes, not yet activated | tasks paused; the parent sees "still being checked" |
+| Friday 10am | no | tasks paused; the parent sees the pay page |
 
 ## Out of scope
 Card or online-banking payment (only QR transfer plus receipt for now). Renewal reminders before the end date. A payment service that confirms DuitNow payments by itself (a later gold standard).

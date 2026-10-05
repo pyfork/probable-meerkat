@@ -22,7 +22,7 @@ Everyone who opens Learn English at Puascari.com: the child, the parent and Admi
 - The child's pages keep working when the internet drops: typing, checks, notes, help, hints and spelling marking all work without it. A finished answer waits on the phone and sends itself when the internet is back. A child who has opened the site before can open it with no internet.
 
 ## Time
-- Every "day" is a Malaysia-time day (see the glossary): trial days, daily limits, active days, plan start and end dates.
+- Every "day" is a Malaysia-time day (see the glossary): daily limits, active days, plan start and end dates. The writing trial and grace time are counted in hours from the moment they start (see `plans-and-payment.md`).
 
 ## New-task limits (stops anyone copying all the content)
 - Each child can open a limited number of new sets or rounds a day (numbers in Teaching settings, `admin-page.md`).
