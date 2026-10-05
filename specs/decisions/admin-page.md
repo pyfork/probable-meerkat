@@ -12,3 +12,4 @@
 - Payment problems and Mark sorted on Verify; report numbers and Mark sorted on Reports. (2026-10-05)
 - Conversations stay in Admin's inbox; Reply-To support@puascari.com; subjects carry the payment code or report number. (2026-10-05)
 - "Deletion requested" list with due dates on the Parents tab. (2026-10-05)
+- Senior engineer fixes (owner gwl, 2026-10-05): daily to-do email with legal-deadline reminders; Download family data; works on a phone; failed emails shown with Resend and delayed emails survive restarts; typed confirmation for Delete this family and Move to a new email (and the parent types DELETE); Numbers state their periods; Teaching settings list safe ranges with Back to default.

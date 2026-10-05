@@ -16,7 +16,7 @@ Parents. Everything in this brief is in parent places only: the parent page, the
 - Shows the "Help other students" card once the child has finished 5 writing sets, until the parent sends a review.
 - Links to Report an issue, Help other students, the Terms of Subscription and the Privacy Notice.
 - **Backup email:** add or change it (see `accounts-and-sign-in.md`).
-- At the bottom, small and quiet: **"Delete my account and data"**. Tapping it explains in plain words what is deleted (the account and all the child's work) and what is kept and why (payment records, 7 years, by law). The parent confirms with an email code, so a child tapping around can't do it. The request goes to Admin's Parents tab as "Deletion requested" with a due date 21 days later, and the parent sees "Your request is received. We'll email you when it's done."
+- At the bottom, small and quiet: **"Delete my account and data"**. Tapping it explains in plain words what is deleted (the account and all the child's work) and what is kept and why (payment records, 7 years, by law). The parent types DELETE to confirm, then enters an email code, so neither a slip nor a child tapping around can do it. The request goes to Admin's Parents tab as "Deletion requested" with a due date 21 days later, and the parent sees "Your request is received. We'll email you when it's done."
 - It is not a progress page. Progress goes in the 23-day email.
 
 ### Report an issue
