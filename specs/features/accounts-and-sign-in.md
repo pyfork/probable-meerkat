@@ -25,6 +25,13 @@ The parent who signs up, the child who uses the parent's phone or computer, and 
 - The screen also says "Check your spam folder".
 - A limit on sign-ups from one network stops a script from making hundreds of accounts. A new email only gets the same fixed trial content, so fake emails gain nothing.
 
+### Backup email and getting back in
+- On the parent page, a parent can add **one backup email** (optional), confirmed with a code sent to it.
+- **"Can't get into my email"** on the sign-in screen sends a code to the backup email. The parent then enters a new main email and confirms it with a code.
+- The old main email gets a notice ("Your account email is changing. Not you? Cancel here."), and the change takes effect after 24 hours, so a stolen backup email can't take the account.
+- **No backup email, or both lost:** the parent writes to the support email. Admin checks they are the payer (payment code, bank transaction number and the child's first name) and moves the account to the new email on the Parents tab. Getting back in is never impossible.
+- After a plan is activated, the parent page shows a small "Add a backup email so you never lose access" until one is added.
+
 ### One child per account
 - One child per account at launch. Siblings come later.
 - Each plan and payment code is saved under the child, not the parent, so siblings can be added later without changing anyone's existing plan.

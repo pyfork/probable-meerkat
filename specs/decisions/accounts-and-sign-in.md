@@ -7,3 +7,4 @@
 - Codes: "Send a new code" after 30 s, up to 5 an hour, a countdown at the limit; Admin can reset it. (2026-10-05)
 - Two phones: the first to submit counts. (2026-10-05)
 - Admin signs in with an email code only (no authenticator app), 12 hours at most. (2026-10-05)
+- Recovery: an optional backup email (one, code-checked) instead of recovery phone numbers (SMS was too much wiring); 24-hour delay with a cancel link to the old email; manual check by Admin as the safety net, so recovery is never impossible. (owner, 2026-10-05)
