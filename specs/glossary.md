@@ -1,6 +1,6 @@
 # Glossary
 
-<!-- project-lead-Opus5.5-agent, 2026-10-05. DRAFT for the owner's re-approval. One meaning per word, used by every brief in specs/features/.
+<!-- project-lead-Opus5.5-agent, 2026-10-05. APPROVED by the owner, 2026-10-05. One meaning per word, used by every brief in specs/features/.
      Meanings only: rules and numbers live in the brief named in "Rules in" (one fact, one place). Code names are what the screens, the database
      and the code call each thing. History: specs/decisions/glossary.md. -->
 
