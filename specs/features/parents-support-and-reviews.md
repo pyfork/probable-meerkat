@@ -15,10 +15,11 @@ Parents. Everything in this brief is in parent places only: the parent page, the
 - Shows each plan: product, start date and end date. During a trial it shows the trial days left and a Subscribe button instead.
 - Shows the "Help other students" card once the child has finished 5 writing sets, until the parent sends a review.
 - Links to Report an issue, Help other students and the Terms of Subscription.
+- At the bottom, small and quiet: **"Delete my account and data"**. Tapping it explains in plain words what is deleted (the account and all the child's work) and what is kept and why (payment records, 7 years, by law). The parent confirms with an email code, so a child tapping around can't do it. The request goes to Admin's Parents tab as "Deletion requested" with a due date 21 days later, and the parent sees "Your request is received. We'll email you when it's done."
 - It is not a progress page. Progress goes in the 23-day email.
 
 ### Report an issue
-- A form: what it's about (feedback my child received, payment or subscription, something isn't working, cancel my plan, delete my family's data, something else) and a text box for the details (up to 1000 characters).
+- A form: what it's about (feedback my child received, payment or subscription, something isn't working, cancel my plan, something else) and a text box for the details (up to 1000 characters).
 - The form names the parent's account email, where the reply will go.
 - After sending, the parent sees "Report received" with a report number.
 - Up to 5 reports a day per parent.
@@ -41,7 +42,7 @@ All emails come from the site's address with Reply-To support@puascari.com, and 
 | Problem with this payment | Admin sends it from Verify | the reason in the owner's fixed wording, Admin's note, and how to resend the receipt |
 | Plan cancelled | Admin confirms Cancel plan | the refund worked out (or "No refund due"), the last day, the pay-by date |
 | Refund sent | Admin clicks Mark refunded | amount and bank transfer reference |
-| Family data deleted | Admin's Delete this family is done | that everything is deleted, except payment records kept by law |
+| Account and data deleted | Admin's Delete this family is done | that the account and the child's work are deleted, and payment records are kept by law |
 | 23-day thank-you | after the child's 23rd active day since activation (days don't need to be in a row) | see below; sent once, and not if the parent has already sent a review |
 
 ### The 23-day thank-you email

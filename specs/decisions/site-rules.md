@@ -9,3 +9,4 @@
 - Daily new-task limits to stop copying: 5 writing sets, 10 spelling rounds (Teaching settings). (2026-10-05)
 - All content live from launch, reviewed afterwards; content in the database only. (2026-10-05)
 - Open results files only on preview pages; in the product, answers are private to Admin and the model. (2026-10-05)
+- Deletion starts from the parent page button, confirmed with an email code. (2026-10-05)

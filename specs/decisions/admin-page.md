@@ -11,3 +11,4 @@
 - Teaching settings panel, editable, with safe ranges and history. Help time 6 s in both products. (2026-10-05)
 - Payment problems and Mark sorted on Verify; report numbers and Mark sorted on Reports. (2026-10-05)
 - Conversations stay in Admin's inbox; Reply-To support@puascari.com; subjects carry the payment code or report number. (2026-10-05)
+- "Deletion requested" list with due dates on the Parents tab. (2026-10-05)

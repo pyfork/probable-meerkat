@@ -64,7 +64,7 @@ How we know the products work. Targets are set after the first month of real dat
 - **"Reset code limit"** and **"Resend activation email"**.
 - **"Cancel plan":** a box shows the plan, activation date, the date the parent asked (Admin can change it), the month now in (counts as used), full months left, the refund worked out with the formula, the last day the child can go on, and the pay-by date (30 days). Confirming ends the plan and emails the parent the same figures. When the refund is RM0 the box says "No refund due".
 - **"Refunds to pay":** a list at the top of the tab with pay-by dates. Overdue ones turn red. Double-payment refunds join the same list for the full extra amount. **"Mark refunded"** with the bank transfer reference sends the parent a "refund sent" email.
-- **"Delete this family":** for a parent's deletion request (see `site-rules.md`).
+- **"Deletion requested":** a list at the top of the tab of parents who asked to delete their account and data, each with its due date (21 days after the request). Overdue ones turn red. **"Delete this family"** deletes the account and the child's work, keeps the payment records, and emails the parent.
 
 ### Content
 - An inventory per product (Writing / Spelling): for each kind of content, how many there are and how many are Approved, Not reviewed and Needs change. Each row has **"Start review"**.

@@ -8,4 +8,5 @@
 - Active day: a day with a writing task submitted or a spelling round finished; 23 such days since activation. (Writing Q17, Spelling Q5, 2026-10-04)
 - One 23-day email with writing and spelling parts; "confident words". (2026-10-04)
 - No phone number; parents use Report an issue and the support email. (2026-10-05)
-- Cancel and delete requests come through Report an issue. (2026-10-05)
+- Cancel requests come through Report an issue. (2026-10-05)
+- "Delete my account and data": a quiet button on the parent page (not a Report an issue choice), explains what is deleted and kept, confirmed with an email code; Admin finishes within 21 days. Cancel requests still come through Report an issue. (2026-10-05)

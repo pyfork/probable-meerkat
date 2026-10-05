@@ -43,7 +43,7 @@ Everyone who opens Learn English at Puascari.com: the child, the parent and Admi
 ## Keeping and deleting data
 - Children's answers are private: only Admin sees them, and the model reads them only to mark them. (Open results files are used only on preview pages, never in the product.)
 - A child's work is kept while their plan runs and for 12 months after it ends, then deleted. Only counts with no names or answers stay, for the Numbers tab.
-- A parent can ask (through Report an issue) for everything to be deleted. Admin clicks "Delete this family" on the Parents tab; it is done within 21 days and the parent is told by email. Payment records stay (see `plans-and-payment.md`).
+- A parent can delete their account and data from the parent page ("Delete my account and data", confirmed with an email code; see `parents-support-and-reviews.md`). Admin finishes it on the Parents tab within 21 days and the parent is told by email. Payment records stay (see `plans-and-payment.md`).
 - Receipts and payment records are kept 7 years. Only Admin can open them, and receipt pictures open only through links that expire after a few minutes.
 - Review videos are kept until the parent withdraws consent, then taken down and deleted within 21 days.
 - Every night the database is copied, locked (encrypted), to a private store separate from the website, and copies are kept 30 days. Once a month a copy is restored into a test database to prove it works.
