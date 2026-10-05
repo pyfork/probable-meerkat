@@ -43,6 +43,8 @@ Children rarely get to practise short writing with a teacher beside them. Free w
   - the suggested starters.
 - **Long-sentence nudge (Weaker only):** when a sentence reaches the length (TS) with no full stop, one kind question, picked at random from the owner's lines, invites the child to put a full stop. It shows once per sentence with a soft yellow highlight on the sentence (never red), disappears at the full stop and doesn't repeat.
 - **Pasting is turned off** in the answer box.
+- Each try records whether Help me appeared and whether it was opened, so Admin can tune the Help time with real data (Answers tab and Numbers).
+- Screen readers read out the ticks and teacher notes politely, and the lined paper stays lined up with large text turned on.
 - The child can submit a short answer. Nothing blocks them; the checks stay unticked and the feedback says what's missing.
 - Answers are saved as the child types, so nothing is lost if the page closes or the internet drops.
 
@@ -57,12 +59,16 @@ Children rarely get to practise short writing with a teacher beside them. Free w
 - The model writes warm feedback for the child's own answer, through the owner's server, following the owner's feedback rules and corrections (in the database): what they did well and one thing to try next time. Kind, short, at the child's level, and never a rewrite of the whole answer.
 - Every feedback passes a child-safety check before the child sees it. Anything that fails is replaced by the owner's fixed line.
 - While it's being written the child sees "Your teacher is reading your answer". If it takes longer than the wait (TS) or fails, the owner's fixed line shows. The child is never stuck.
-- **The marking list:** Answers the question (Yes / No) · Gives two reasons · About 50 words · Capital letters and full stops. **Stars:** 3 when all four pass; 2 with yes/no, at least one reason and 30 or more words; otherwise 1.
+- **The marking list:** Answers the question (Yes / No) · Gives two reasons · About 50 words · Capital letters and full stops.
+  - **Who decides each row:** *Yes / No* and *About 50 words* use the same rules as the ticks, so they always match what the child saw. *Gives two reasons* and *Capital letters and full stops* are decided by the model.
+  - When the model disagrees with a tick the child saw, the feedback explains it kindly (for example, that the second idea is a nice detail and could become a reason with "because").
+  - The model returns its marking in a fixed format that is checked before use. If it is missing or broken, all four rows come from the rules and the feedback is the owner's fixed line, so the child always gets a full marking.
+- **Stars:** 3 when all four pass; 2 with yes/no, at least one reason and 30 or more words; otherwise 1.
 - **Nothing written means nothing marked as correct:** an empty answer gets 0 stars and every row says "No answer". Capital letters and full stops pass only when something with a full stop was written.
 - "The second reason is because…" is never marked down: it counts as a reason, passes, and the feedback never corrects it (the model answers use "…is that…").
 - For Average and Stronger children, a long sentence is only commented on when it has mistakes in it (a kind suggestion to split it). For Weaker children, the marking also suggests one idea in each sentence.
-- **Copied model answer:** an answer almost the same as a model answer gets a kind "try writing it in your own words", no stars, and is flagged for Admin.
-- **Unkind words:** the child-safety check reads the child's answer too. The child gets a fixed kind line, and the answer is flagged for Admin. Nothing is sent to the parent automatically.
+- **Copied model answer:** an answer with 8 in 10 of its words the same, in the same order, as any model answer gets a kind "try writing it in your own words", no stars, and is flagged for Admin.
+- **Unkind words** (rude or hurtful words about a person; disliking a place, like "I hate the zoo", is fine): the child-safety check reads the child's answer too. The child gets a fixed kind line, and the answer is flagged for Admin. Nothing is sent to the parent automatically.
 - Every feedback is saved with what the child saw (Answers tab).
 
 ### Model answers

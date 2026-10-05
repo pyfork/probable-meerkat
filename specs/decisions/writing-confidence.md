@@ -42,3 +42,4 @@
 - Copied model answers and unkind words: kind fixed line, flagged for Admin.
 - Pasting turned off. Offline: writing goes on and answers send later.
 - Launch content: 2 trial sets, 60 Fun sets, 12 Exam sets.
+- Senior engineer fixes (owner gwl, 2026-10-05): who decides each marking row (rules for Yes/No and words, the model for reasons and capitals), kind explanation when the model disagrees with a tick; fixed-format model marking with a rules fallback; copied = 8 in 10 of the same words in order; unkind = rude or hurtful about a person; Help me shown/opened recorded; screen reader and large text support.
