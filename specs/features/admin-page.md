@@ -121,7 +121,7 @@ Launch day needs money, legal deadlines and child safety. "Soon after" parts fol
 | Reports | Content tab review screen |
 | Answers: To check list and Fix feedback | Teaching settings editing (defaults work from day 1) |
 | Daily to-do email, typed confirmations, action log, admin sign-in alerts, failed-email Resend | Reviews tab |
-| Test families | Placement view and Reset placement |
+| Test families, placement level and Reset placement | Placement history view |
 
 ## Worked examples
 | What happens | Result |
