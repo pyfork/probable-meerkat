@@ -12,7 +12,7 @@ Admin (today, the owner). Nobody else can open this page.
 Payments are checked by hand, the model writes feedback without approval, and all content goes live before review. Admin needs one place to check money, feedback, content, families and numbers, quickly and safely.
 
 ## What should happen
-Eight tabs: **Verify, Activate, Answers, Reviews, Reports, Numbers, Parents, Content.**
+Eight tabs: **Verify, Activate, Answers, Reviews, Reports, Numbers, Parents, Content.** A small **Log** link shows the admin action log (see `accounts-and-sign-in.md`).
 
 ### Verify
 - Receipts waiting to be checked, newest first.
