@@ -23,7 +23,11 @@ Parents pay by DuitNow QR transfer. The bank gives no automatic confirmation, so
 | Spelling Confidence | RM11 | 1 month | Spelling Confidence only |
 
 - No plan renews by itself.
-- A parent can pay from day 1 of a trial. Paying early doesn't shorten the trial. The plan starts on the day Admin activates it.
+- Every amount is shown as RM with 2 decimals (for example RM41.30) on every screen, email and the Terms. Behind the scenes amounts are kept in whole sen, and any rounding is to the nearest sen, half up.
+- Each plan keeps the price it was bought at. If prices change later, refunds use the price actually paid.
+- A parent can pay from day 1 of a trial. Paying early doesn't shorten the trial. A first plan starts on the day Admin activates it.
+- **Renewing early:** a new plan for the same product and child starts the day after the current plan ends, so no days are lost.
+- **No overlapping plans:** the pay page doesn't offer a plan the child already has. On the RM59 plan, Spelling alone isn't offered and the page says "Spelling Confidence is already included in your plan".
 
 ### Free trials
 - **Writing Confidence:** 72 hours from the moment of sign-up (owner, 2026-10-05). The child gets 2 sets a day (Malaysia-time days) within those hours. The trial sets are fixed: the same 2 sets for every trial user, every day, kept separate from the paid sets so a paying child never redoes them. Feedback is still written for every trial answer.
@@ -32,10 +36,10 @@ Parents pay by DuitNow QR transfer. The bank gives no automatic confirmation, so
 
 ### Paying
 - The pay page shows a short how-to guide: save or scan the DuitNow QR, pick a plan and pay its price to KIP ADVISORS, type your own payment code in the bank's Reference box, then screenshot the receipt.
-- Each parent gets their own payment code: # and 6 digits, counting up from #160131. It shows on the pay page with a Copy button. If a bank won't accept the #, the parent types just the digits.
+- Each parent gets their own payment code: # and 7 digits. The first 6 count up from 160131; the 7th is a check digit worked out from the other six (Luhn), so a mistyped code is never another family's real code. It shows on the pay page with a Copy button. If a bank won't accept the #, the parent types just the digits.
 - The parent sends the receipt form: **what they are paying for** (the plan), the screenshot, the transaction number, their name, their email, and a WhatsApp number (optional).
 - The email field starts filled with the parent's account email. The form and the "Payment receipt received" screen both name it: "we'll send your subscription activation to {email}". If the parent changes the field, the named email changes with it.
-- One payment activates one plan for one child.
+- One payment activates one plan for one child. Each bank transaction number can be used once; a receipt with a transaction number already used is flagged "Receipt already used" for Admin.
 - The receipt screenshot alone never verifies a payment, because a screenshot can be edited. Admin checks the bank's list.
 - Receipts are private. Only Admin can see them.
 
@@ -95,6 +99,20 @@ Parents pay by DuitNow QR transfer. The bank gives no automatic confirmation, so
 | RM29, 6 months | 5 Oct 2026 | 5 Oct 2026 | 1 | 5 | RM29 × 5 ÷ 6 − RM1.45 = **RM22.72** | 4 Nov 2026 | 4 Nov 2026 |
 | RM39, 12 months | 5 Oct 2026 | 10 Sep 2027 | 12 | 0 | below RM0, so **RM0** ("No refund due") | 4 Oct 2027 | – |
 | RM11, 1 month | 5 Oct 2026 | 6 Oct 2026 | 1 | 0 | **RM0** ("No refund due") | 4 Nov 2026 | – |
+
+**Payment codes**
+| First 6 digits | Check digit | Payment code |
+|---|---|---|
+| 160131 | 9 | #1601319 |
+| 160132 | 7 | #1601327 |
+| 160133 | 5 | #1601335 |
+
+A parent who types #1601329 by mistake (one digit wrong) gets a code that matches nobody, so Admin sees it at once.
+
+**Renewing early**
+| Current plan | Renewal paid and activated | New plan starts | New plan ends |
+|---|---|---|---|
+| RM59, 5 Oct 2026 – 4 Oct 2027 | 20 Sep 2027 | 5 Oct 2027 | 4 Oct 2028 |
 
 **Double payments**
 | What happened | Label? | Result |

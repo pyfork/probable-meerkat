@@ -18,6 +18,7 @@ Eight tabs: **Verify, Activate, Answers, Reviews, Reports, Numbers, Parents, Con
 - Receipts waiting to be checked, newest first.
 - Each row: payment code, plan and amount, parent name, email, child's name, WhatsApp number, and a link to view the receipt picture.
 - Admin finds the payment code in the bank's transactions list, then clicks **Confirm**. Confirm marks the payment as verified and moves the row to Activate. It sends nothing to the parent. An Undo shows for a few seconds after Confirm, and a verified parent can be sent back to Verify until activated.
+- **"Receipt already used"** label when a bank transaction number has been used before.
 - **"Possible double payment"** label when the same plan for the same child is paid again while active or waiting (see `plans-and-payment.md`).
 - **"Problem with this payment"** button: Admin picks a reason (wrong amount, code not found, receipt unclear, possible double payment) and can add a note of up to 300 characters. It emails the parent the owner's fixed wording for that reason plus the note, and reopens their receipt form. The row shows what was sent and when.
 - **"Mark sorted"** clears a row once it is dealt with.

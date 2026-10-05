@@ -15,3 +15,4 @@
 - Trial or plan ending mid-set: finish the current task, then pause. (2026-10-05)
 - Spelling trial rounds mix the lists 30 : 70. Writing trial sets are separate from the paid sets. (2026-10-05)
 - Writing trial = 72 hours from sign-up (owner, 2026-10-05), replacing "up to 3 days". Grace time = 48 hours after the trial ends (owner gwl, 2026-10-05).
+- Senior engineer fixes (owner gwl, 2026-10-05): a bank transaction number used once ("Receipt already used"); early renewal starts the day after the current plan ends; no overlapping plans offered; each plan keeps its bought price; amounts kept in sen but always shown as RM with 2 decimals; payment codes get a Luhn check digit (7 digits, first #1601319).

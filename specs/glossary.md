@@ -22,7 +22,7 @@ Every brief, screen, database table and piece of code uses these words with thes
 |---|---|---|---|
 | **Plan** | `plan` | What was paid for: a product and a length, for one child, with a start and an end date. | plans-and-payment |
 | **Trial** | `trial` | The free start before paying. | plans-and-payment |
-| **Payment code** | `payment_code` | The parent's own code, typed in the bank's Reference box. | plans-and-payment |
+| **Payment code** | `payment_code` | The parent's own code, typed in the bank's Reference box. Its last digit is a check digit. | plans-and-payment |
 | **Receipt** | `receipt` | What the parent sends after paying: the picture and the details from the form. | plans-and-payment |
 | **Verified** | `verified` | Admin found the payment code in bank account transactions list and clicked Confirm. | admin-page |
 | **Activated** | `activated` | Admin clicked Activate; the plan starts that day. | admin-page |
