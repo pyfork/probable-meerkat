@@ -71,7 +71,7 @@ Parents pay by DuitNow QR transfer. The bank gives no automatic confirmation, so
 - **Refund = plan price × full months left ÷ plan months − 5% of the plan price**, rounded to the nearest sen, never below RM0.
 - **Cancelling before activation** (nothing used yet): the full amount is refunded, with no 5% charge.
 - **Cancelling the RM59 plan** ends both Writing Confidence and Spelling Confidence, with one refund for the plan.
-- **Bank details for the refund:** "Cancel plan" asks the parent for the bank name, account name and account number. Only Admin can see them, and they are deleted once the refund is marked sent.
+- **Bank details for the refund:** when a refund is due, the cancellation email gives the parent a link to a private form (signed in with an email code) for the bank name, account name and account number. Only Admin can see them, and they are deleted once the refund is marked sent. The 30 days to pay start when the bank details arrive.
 - The child can keep going until the end of the month already used.
 - The refund is paid within 30 days of the cancellation.
 - Admin's screens for this are in `admin-page.md` (Cancel plan, Refunds to pay).
