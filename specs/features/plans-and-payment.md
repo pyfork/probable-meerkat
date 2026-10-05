@@ -1,6 +1,6 @@
 # Brief: Plans and payment
 
-<!-- project-lead-Opus5.5-agent, 2026-10-05. DRAFT for the owner's re-approval. Split out of the writing and spelling briefs (owner, 2026-10-04: one fact, one place).
+<!-- project-lead-Opus5.5-agent, 2026-10-05. APPROVED by the owner, 2026-10-05. Split out of the writing and spelling briefs (owner, 2026-10-04: one fact, one place).
      Decisions: specs/decisions/plans-and-payment.md. -->
 
 Words follow `specs/glossary.md`. Rules for every page are in `site-rules.md`. Admin's screens for payments are in `admin-page.md`.
