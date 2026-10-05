@@ -1,6 +1,6 @@
 # Brief: Accounts and sign-in
 
-<!-- project-lead-Opus5.5-agent, 2026-10-05. DRAFT for the owner's re-approval. Split out of the writing brief (owner, 2026-10-04: one fact, one place).
+<!-- project-lead-Opus5.5-agent, 2026-10-05. APPROVED by the owner, 2026-10-05. Split out of the writing brief (owner, 2026-10-04: one fact, one place).
      Decisions: specs/decisions/accounts-and-sign-in.md. -->
 
 Words follow `specs/glossary.md`. Rules for every page are in `site-rules.md`.
