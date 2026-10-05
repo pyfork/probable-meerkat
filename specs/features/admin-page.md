@@ -1,6 +1,6 @@
 # Brief: Admin page
 
-<!-- project-lead-Opus5.5-agent, 2026-10-05. DRAFT for the owner's re-approval. Was "Owner page" in the writing brief; split out and grown to 8 tabs
+<!-- project-lead-Opus5.5-agent, 2026-10-05. APPROVED by the owner, 2026-10-05. Was "Owner page" in the writing brief; split out and grown to 8 tabs
      (owner, 2026-10-04 and 2026-10-05). Decisions: specs/decisions/admin-page.md. -->
 
 Words follow `specs/glossary.md`. Rules for every page are in `site-rules.md`. Admin signs in as described in `accounts-and-sign-in.md`.
@@ -110,6 +110,18 @@ Every number below lives only here. Admin can change each one within its safe ra
 ### Emails and replies
 - Every email to a parent is sent from the site's address with **Reply-To support@puascari.com**, which forwards to Admin's inbox. Admin answers from that inbox as support@puascari.com.
 - Conversations stay in Admin's inbox, not on the admin page. Every email subject carries the payment code or report number, so a search finds the whole conversation, and each row shows what was sent and when.
+
+## Launch day and soon after
+Launch day needs money, legal deadlines and child safety. "Soon after" parts follow within the first weeks; until then the numbers work at their defaults.
+
+| Launch day | Soon after |
+|---|---|
+| Verify, Activate | Numbers tab and setting markers |
+| Parents: search, Cancel plan, Refunds to pay, Deletion requested, Download family data, Move to a new email, Reset code limit, Resend activation email | Download payments (before the first accounting month ends) |
+| Reports | Content tab review screen |
+| Answers: To check list and Fix feedback | Teaching settings editing (defaults work from day 1) |
+| Daily to-do email, typed confirmations, action log, admin sign-in alerts, failed-email Resend | Reviews tab |
+| Test families | Placement view and Reset placement |
 
 ## Worked examples
 | What happens | Result |
