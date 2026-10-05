@@ -1,6 +1,6 @@
 # Brief: Site rules (every page)
 
-<!-- project-lead-Opus5.5-agent, 2026-10-05. DRAFT for the owner's re-approval. NEW shared brief, added during the rewrite so that
+<!-- project-lead-Opus5.5-agent, 2026-10-05. APPROVED by the owner, 2026-10-05. NEW shared brief, added during the rewrite so that
      rules for every page live in one place (owner's one-fact-one-place rule, 2026-10-04). Decisions: specs/decisions/site-rules.md. -->
 
 Words follow `specs/glossary.md`.
