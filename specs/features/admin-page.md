@@ -22,6 +22,7 @@ Eight tabs: **Verify, Activate, Answers, Reviews, Reports, Numbers, Parents, Con
 - **"Possible double payment"** label when the same plan for the same child is paid again while active or waiting (see `plans-and-payment.md`).
 - **"Problem with this payment"** button: Admin picks a reason (wrong amount, code not found, receipt unclear, possible double payment) and can add a note of up to 300 characters. It emails the parent the owner's fixed wording for that reason plus the note, and reopens their receipt form. The row shows what was sent and when.
 - **"Mark sorted"** clears a row once it is dealt with.
+- A receipt still not confirmed after 14 days is marked **"Payment not found"** and the parent is emailed (see `plans-and-payment.md`).
 
 ### Activate
 - Verified payments only, each with an **Activate** button.
@@ -64,7 +65,7 @@ How we know the products work. Targets are set after the first month of real dat
 - **Placement** (writing): the child's level (Weaker, Average or Stronger), since when, and why (for example "average 2.3 stars over the last 3 sets"), plus a history of changes. **"Reset placement"** puts the child back to Average and clears the window, so the next set counts as their first. The child sees nothing. A **"Weaker"** filter shows who is on the Guided paper now.
 - **"Reset code limit"**, **"Resend activation email"** and **"Move to a new email"** (after Admin has checked the parent is the payer; see `accounts-and-sign-in.md`).
 - **"Cancel plan":** a box shows the plan, activation date, the date the parent asked (Admin can change it), the month now in (counts as used), full months left, the refund worked out with the formula, the last day the child can go on, and the pay-by date (30 days). Confirming ends the plan and emails the parent the same figures. When the refund is RM0 the box says "No refund due".
-- **"Refunds to pay":** a list at the top of the tab with pay-by dates. Overdue ones turn red. Double-payment refunds join the same list for the full extra amount. **"Mark refunded"** with the bank transfer reference sends the parent a "refund sent" email.
+- **"Refunds to pay":** a list at the top of the tab with pay-by dates and the parent's bank details (deleted once the refund is marked sent). Overdue ones turn red. Double-payment refunds join the same list for the full extra amount. **"Mark refunded"** with the bank transfer reference sends the parent a "refund sent" email.
 - **"Deletion requested":** a list at the top of the tab of parents who asked to delete their account and data, each with its due date (21 days after the request). Overdue ones turn red. **"Delete this family"** deletes the account and the child's work, keeps the payment records, and emails the parent.
 
 ### Content

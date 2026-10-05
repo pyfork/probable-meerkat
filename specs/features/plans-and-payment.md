@@ -37,7 +37,7 @@ Parents pay by DuitNow QR transfer. The bank gives no automatic confirmation, so
 ### Paying
 - The pay page shows a short how-to guide: save or scan the DuitNow QR, pick a plan and pay its price to KIP ADVISORS, type your own payment code in the bank's Reference box, then screenshot the receipt.
 - Each parent gets their own payment code: # and 7 digits. The first 6 count up from 160131; the 7th is a check digit worked out from the other six (Luhn), so a mistyped code is never another family's real code. It shows on the pay page with a Copy button. If a bank won't accept the #, the parent types just the digits.
-- The parent sends the receipt form: **what they are paying for** (the plan), the screenshot, the transaction number, their name, their email, and a WhatsApp number (optional).
+- The parent sends the receipt form: **what they are paying for** (the plan), the receipt picture (a photo, screenshot or PDF, up to 10 MB), the transaction number, their name, their email, and a WhatsApp number (optional).
 - The email field starts filled with the parent's account email. The form and the "Payment receipt received" screen both name it: "we'll send your subscription activation to {email}". If the parent changes the field, the named email changes with it.
 - One payment activates one plan for one child. Each bank transaction number can be used once; a receipt with a transaction number already used is flagged "Receipt already used" for Admin.
 - The receipt screenshot alone never verifies a payment, because a screenshot can be edited. Admin checks the bank's list.
@@ -61,6 +61,7 @@ Parents pay by DuitNow QR transfer. The bank gives no automatic confirmation, so
 
 ### Payment problems
 - **Possible double payment:** the same plan for the same child paid again while it is active or waiting. Admin checks with the parent first, because a second payment is often a second product or an early renewal. If it really is a double payment, the extra amount is refunded in full, with no 5% charge.
+- **Payment not found:** a receipt still not confirmed 14 days after it was sent is marked "Payment not found". The parent gets an email, and the child's tasks stay paused until a real payment arrives.
 - **Wrong amount, code not found, or receipt unclear:** Admin sends a "Problem with this payment" email with the reason and an optional note. The parent's receipt form opens again. The grace time still counts from the first receipt.
 
 ### Cancelling and refunds
@@ -68,6 +69,9 @@ Parents pay by DuitNow QR transfer. The bank gives no automatic confirmation, so
 - A parent can cancel at any time, through Report an issue.
 - Plan months run from the activation date (month 1 = activation day to the day before the same date next month). A started month counts as used, even on its first day.
 - **Refund = plan price × full months left ÷ plan months − 5% of the plan price**, rounded to the nearest sen, never below RM0.
+- **Cancelling before activation** (nothing used yet): the full amount is refunded, with no 5% charge.
+- **Cancelling the RM59 plan** ends both Writing Confidence and Spelling Confidence, with one refund for the plan.
+- **Bank details for the refund:** "Cancel plan" asks the parent for the bank name, account name and account number. Only Admin can see them, and they are deleted once the refund is marked sent.
 - The child can keep going until the end of the month already used.
 - The refund is paid within 30 days of the cancellation.
 - Admin's screens for this are in `admin-page.md` (Cancel plan, Refunds to pay).
@@ -99,6 +103,7 @@ Parents pay by DuitNow QR transfer. The bank gives no automatic confirmation, so
 | RM29, 6 months | 5 Oct 2026 | 5 Oct 2026 | 1 | 5 | RM29 × 5 ÷ 6 − RM1.45 = **RM22.72** | 4 Nov 2026 | 4 Nov 2026 |
 | RM39, 12 months | 5 Oct 2026 | 10 Sep 2027 | 12 | 0 | below RM0, so **RM0** ("No refund due") | 4 Oct 2027 | – |
 | RM11, 1 month | 5 Oct 2026 | 6 Oct 2026 | 1 | 0 | **RM0** ("No refund due") | 4 Nov 2026 | – |
+| RM59, 12 months | not yet (paid 3 Oct) | 4 Oct 2026 | – | – | **RM59.00** in full (nothing used) | – | 3 Nov 2026 |
 
 **Payment codes**
 | First 6 digits | Check digit | Payment code |

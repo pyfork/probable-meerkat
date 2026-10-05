@@ -16,3 +16,4 @@
 - Spelling trial rounds mix the lists 30 : 70. Writing trial sets are separate from the paid sets. (2026-10-05)
 - Writing trial = 72 hours from sign-up (owner, 2026-10-05), replacing "up to 3 days". Grace time = 48 hours after the trial ends (owner gwl, 2026-10-05).
 - Senior engineer fixes (owner gwl, 2026-10-05): a bank transaction number used once ("Receipt already used"); early renewal starts the day after the current plan ends; no overlapping plans offered; each plan keeps its bought price; amounts kept in sen but always shown as RM with 2 decimals; payment codes get a Luhn check digit (7 digits, first #1601319).
+- Second senior pass (owner gwl, 2026-10-05): cancelling before activation refunds in full; Cancel plan collects bank details, Admin-only, deleted once the refund is sent; cancelling RM59 ends both products with one refund; "Payment not found" after 14 days; receipt upload a photo, screenshot or PDF up to 10 MB.

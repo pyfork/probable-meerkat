@@ -46,7 +46,7 @@ Everyone who opens Learn English at Puascari.com: the child, the parent and Admi
 - Linked from the footer of every page, the sign-up page, the pay page, the parent page and every email.
 - It says, in plain words:
   - **who we are** and how to contact us about personal data (Report an issue and the support email);
-  - **what we collect:** the parent's name, email, backup email (optional) and WhatsApp number (optional), the child's first name, the child's answers and marks, payment receipts and payment records, reviews and videos the parent chooses to send, and basic device and usage information;
+  - **what we collect:** the parent's name, email, backup email (optional) and WhatsApp number (optional), the child's first name, the child's answers and marks, payment receipts and payment records, bank details for a refund (deleted once the refund is sent), reviews and videos the parent chooses to send, and basic device and usage information;
   - **why:** to run the lessons, mark and give feedback, check payments, send emails about the account, improve the lessons, and meet the law;
   - **who else handles it, for us:** the model provider that writes feedback, the email service, and the hosting and storage services. Nobody sells or rents personal data;
   - **data sent outside Malaysia:** some of these services run outside Malaysia, and the Notice says so and how the data is protected;
