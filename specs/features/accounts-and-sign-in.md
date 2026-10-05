@@ -14,6 +14,7 @@ The parent who signs up, the child who uses the parent's phone or computer, and 
 - A parent signs up with their email: they type it, get a 6-digit code by email, and type the code in. No password.
 - Signing in later (a new phone, or after signing out) works the same way: email, then a 6-digit code.
 - The phone stays signed in, so the child just opens the site.
+- Signing up needs the Privacy Notice consent tick (see `site-rules.md`).
 - After signing up, the parent adds one child: the child's first name. The name is used in feedback ("Super work, {name}!") and in emails to the parent.
 - Writing Confidence's trial starts with this sign-up. Spelling Confidence's trial needs no sign-up; the parent signs up when they pay (see `plans-and-payment.md`).
 

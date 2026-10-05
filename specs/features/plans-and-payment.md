@@ -72,8 +72,8 @@ Parents pay by DuitNow QR transfer. The bank gives no automatic confirmation, so
 - Linked from the pay page ("By sending your receipt, you agree to the Terms of Subscription"), the Support page and the footer.
 - Covers: who we are (Kip Advisors, registration numbers, business address, from the owner's private notes), what the parent gets, the free trials, plans and prices, cancellation and refunds with a month-by-month refund table, using the service, AI-written feedback, the child's work and personal data, reviews, changes, the parent's rights and disputes, and how to contact us (the Report an issue form and the support email; no phone number).
 - A Bahasa Malaysia version sits beside the English one.
-- A Privacy Notice in Bahasa Malaysia and English (Personal Data Protection Act 2010), with the parent's consent for their child's data.
-- A Malaysian lawyer checks the Terms and the Privacy Notice before launch.
+- The Privacy Notice is its own page (see `site-rules.md`); the Terms link to it.
+- A Malaysian lawyer checks the Terms before launch.
 
 ## Worked examples
 

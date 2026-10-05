@@ -40,6 +40,26 @@ Everyone who opens Learn English at Puascari.com: the child, the parent and Admi
 - A monthly spending limit is set in the model provider's console (Admin chooses the amount). If it is reached, children get the owner's fixed feedback line and Admin gets an email.
 - Each child can submit at most a set number of answers a day (Teaching settings), so one account can't run up costs.
 
+## Privacy Notice (PDPA)
+<!-- project-lead-Opus5.5-agent, 2026-10-05: owner asked for a privacy / PDPA statement. Plain-words requirements; a Malaysian lawyer writes and checks the final text. -->
+- A **Privacy Notice** page, in English and Bahasa Malaysia side by side, under the Personal Data Protection Act 2010 (and its 2024 amendments).
+- Linked from the footer of every page, the sign-up page, the pay page, the parent page and every email.
+- It says, in plain words:
+  - **who we are** and how to contact us about personal data (Report an issue and the support email);
+  - **what we collect:** the parent's name, email and WhatsApp number (optional), the child's first name, the child's answers and marks, payment receipts and payment records, reviews and videos the parent chooses to send, and basic device and usage information;
+  - **why:** to run the lessons, mark and give feedback, check payments, send emails about the account, improve the lessons, and meet the law;
+  - **who else handles it, for us:** the model provider that writes feedback, the email service, and the hosting and storage services. Nobody sells or rents personal data;
+  - **data sent outside Malaysia:** some of these services run outside Malaysia, and the Notice says so and how the data is protected;
+  - **how long we keep it** (see Keeping and deleting data below);
+  - **the parent's rights:** to see a copy of their and their child's data, to correct it, to withdraw consent, to limit direct marketing, and to delete the account and data. Requests go through Report an issue (or "Delete my account and data" on the parent page) and are answered within 21 days;
+  - **children:** the child's data is collected only with the parent's or guardian's consent;
+  - **security**, and that the parent will be told if a data breach puts their data at real risk;
+  - **which details are needed and which are optional,** and what happens without them.
+- **Consent at sign-up:** a tick box: "I am the parent or guardian of this child, and I agree to the Privacy Notice for myself and my child." No account without it.
+- **Spelling trial:** collects no name or email; only the anonymous answers of the trial. The Privacy Notice link is still shown.
+- If the Notice changes in a way that matters, parents are emailed before it takes effect.
+- A Malaysian lawyer writes or checks the final English and Bahasa Malaysia text before launch, including whether a Data Protection Officer must be named.
+
 ## Keeping and deleting data
 - Children's answers are private: only Admin sees them, and the model reads them only to mark them. (Open results files are used only on preview pages, never in the product.)
 - A child's work is kept while their plan runs and for 12 months after it ends, then deleted. Only counts with no names or answers stay, for the Numbers tab.

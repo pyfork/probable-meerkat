@@ -14,12 +14,12 @@ Parents. Everything in this brief is in parent places only: the parent page, the
 - Reached from a quiet "Parent" link at the top of the child's screens (once the parent has signed up).
 - Shows each plan: product, start date and end date. During a trial it shows the trial days left and a Subscribe button instead.
 - Shows the "Help other students" card once the child has finished 5 writing sets, until the parent sends a review.
-- Links to Report an issue, Help other students and the Terms of Subscription.
+- Links to Report an issue, Help other students, the Terms of Subscription and the Privacy Notice.
 - At the bottom, small and quiet: **"Delete my account and data"**. Tapping it explains in plain words what is deleted (the account and all the child's work) and what is kept and why (payment records, 7 years, by law). The parent confirms with an email code, so a child tapping around can't do it. The request goes to Admin's Parents tab as "Deletion requested" with a due date 21 days later, and the parent sees "Your request is received. We'll email you when it's done."
 - It is not a progress page. Progress goes in the 23-day email.
 
 ### Report an issue
-- A form: what it's about (feedback my child received, payment or subscription, something isn't working, cancel my plan, something else) and a text box for the details (up to 1000 characters).
+- A form: what it's about (feedback my child received, payment or subscription, something isn't working, cancel my plan, my data (see a copy or correct it), something else) and a text box for the details (up to 1000 characters).
 - The form names the parent's account email, where the reply will go.
 - After sending, the parent sees "Report received" with a report number.
 - Up to 5 reports a day per parent.

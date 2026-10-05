@@ -10,3 +10,4 @@
 - All content live from launch, reviewed afterwards; content in the database only. (2026-10-05)
 - Open results files only on preview pages; in the product, answers are private to Admin and the model. (2026-10-05)
 - Deletion starts from the parent page button, confirmed with an email code. (2026-10-05)
+- Privacy Notice (PDPA) page in English and Bahasa Malaysia, consent tick at sign-up, parents' rights answered within 21 days; a lawyer writes or checks the final text. (owner asked, 2026-10-05)
