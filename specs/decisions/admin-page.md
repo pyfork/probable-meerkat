@@ -16,3 +16,4 @@
 - Second senior pass (owner gwl, 2026-10-05): setting-change markers on Numbers; test families excluded from Numbers, reminders and emails; Download payments by month for the accountant; search by payment code and child's first name; admin allow-list changed only by a server command.
 - Launch day vs soon after split (owner gwl, 2026-10-05). Admin page brief APPROVED (owner, 2026-10-05).
 - Numbers gains "Help me use" (from the writing brief's fix, 2026-10-05; check-on-change habit: told the owner).
+- Teaching settings gain box return times and box 1 words per round (from the spelling brief, 2026-10-05; owner told).

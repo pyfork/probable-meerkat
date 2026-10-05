@@ -27,6 +27,9 @@ Part 5 of the Year 4 English paper tests spelling: a clue, the first letter, one
 - Words come from the whole pool, never split by school year or unit.
 - Fun mode and Exam mode never share the same words in a sitting. Shuffling the order is not enough.
 - No teacher notes and no marking while the child works. Everything is marked at the end, instantly, even with no internet.
+- The answer boxes turn off the phone's autocorrect, predictive text, automatic capitals and spell-check underlines, so the phone never spells the word for the child.
+- **How a round is filled:** first, words due back (lowest box first, then the longest waiting), with at most a set number of box 1 words (TS) so every round has wins; then new words; always keeping the 2/4/2 length mix. If a length has no due or new word, the next-best word of that length is used.
+- **What counts as right:** capital letters and spaces at the ends don't matter. British spelling is right. An American spelling of the right word (for example *color*) counts as right, but the word stays in its box, and the debrief says kindly "In Malaysia we spell it *colour*".
 - Daily limit on new rounds (TS), see `site-rules.md`.
 
 ### Fun mode
@@ -49,7 +52,7 @@ Part 5 of the Year 4 English paper tests spelling: a clue, the first letter, one
 
 ### Marking and debrief
 - After the round (and the bonus round): spelling score, bonus score and stars.
-- Each mistake gets a card: what the child wrote, the right spelling, a short tip, and a Listen button.
+- Each mistake gets a card: what the child wrote, the right spelling, a short tip that names the spelling pattern (for example a double letter, or *-ful* with one *l*) so the child can use it on other words, and a Listen button. Tips are the owner's content, in the database.
 - A mistake that is a real word (right meaning, wrong word) gets a meaning note instead of a spelling tip.
 - Listen plays one simple sentence with the word, read twice; the second reading stresses the word. Always recorded voices, never a computer voice made on the spot.
 - Two recorded voices (British, one female, one male) take turns from card to card. Each debrief starts with a random one. Children never choose a voice.
@@ -58,8 +61,10 @@ Part 5 of the Year 4 English paper tests spelling: a clue, the first letter, one
 - Then: "Practise these words again" or "Next task".
 
 ### Remembering words (for each child)
-- Every word the child meets sits in a box for that child (Leitner boxes). Right: up one box. Wrong: back to box 1. Right with a hint, or an "also right" answer: stays in the same box.
-- Words in lower boxes come back sooner; words in higher boxes come back later.
+- Every word the child meets sits in one of 5 boxes for that child (Leitner boxes). New words start in box 1. The child never sees the boxes.
+- **Right:** up one box. **One letter wrong, missing or extra** (a near miss): down one box, never below box 1. **A bigger mistake:** back to box 1. **Right with a hint, an "also right" answer, or an American spelling:** stays in the same box.
+- Only the **first try** of a word in a Fun or Exam round moves its box. "Practise these words again" rounds are practice and don't move boxes.
+- The higher the box, the longer before the word comes back (return times in Teaching settings): box 1 the next round, box 2 after 1 day, box 3 after 3 days, box 4 after 7 days, box 5 after 14 days.
 - A word that comes back shows a different clue and sentence when one exists. Each word has up to 3 versions; the original always comes first.
 - A child's old answers always show the clue and sentence they actually saw.
 
@@ -86,9 +91,22 @@ Part 5 of the Year 4 English paper tests spelling: a clue, the first letter, one
 | The word… | Box before | Box after |
 |---|---|---|
 | right | 2 | 3 |
-| wrong | 4 | 1 |
+| one letter missing ("butterfy") | 4 | 3 |
+| a bigger mistake ("butifly") | 4 | 1 |
 | right with a hint | 2 | 2 |
-| "also right" answer | 3 | 3 |
+| "also right" answer, or "color" | 3 | 3 |
+| right again in "Practise these words again" | 1 | 1 (practice doesn't move boxes) |
+
+**One word over two weeks** ("butterfly")
+| Day | What happens | Box | Comes back |
+|---|---|---|---|
+| Mon | wrong | 1 | next round |
+| Mon | right | 2 | after 1 day |
+| Tue | right | 3 | after 3 days (now a confident word) |
+| Fri | right | 4 | after 7 days |
+| next Fri | "butterfy" (near miss) | 3 | after 3 days |
+
+**Filling a round** (at most 3 box 1 words): 5 words are due (4 in box 1, 1 in box 2) → the round takes 3 box 1 words and the box 2 word, then 4 new words, keeping 2 short, 4 middle and 2 long. The 4th box 1 word waits for the next round.
 
 **Word list 2 start** (every list 1 word met; 8 in 10 confident)
 | List 1 words met | Confident | List 2 starts? |

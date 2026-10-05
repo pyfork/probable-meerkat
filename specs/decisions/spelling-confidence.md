@@ -19,3 +19,4 @@
 - "How it is built" **moved** to the plan. Limits kept in the brief: instant marking offline, recorded voices only, old answers show what the child saw.
 - Daily limit on new rounds (Teaching setting).
 - Spelling answers on the Answers tab: later.
+- Senior engineer + CELTA teacher pass (owner gwl, 2026-10-05): 5 boxes with return times (Teaching settings); near miss (one letter wrong, missing or extra) drops one box, a bigger mistake goes to box 1; only the first try in a Fun or Exam round moves boxes; rounds filled with due words first, at most 3 box 1 words so every round has wins; capitals and end spaces ignored; British spelling right, American spelling counts but stays in its box with a kind note; tips name the spelling pattern; phone autocorrect and predictive text off.

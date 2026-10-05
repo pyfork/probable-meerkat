@@ -103,6 +103,8 @@ Every number below lives only here. Admin can change each one within its safe ra
 | New sets a day | 5 | 1–20 | Writing |
 | Answers a day (cost cap) | 30 | 10–100 | Writing |
 | Bonus round: qualify with | up to 4 wrong out of 8 | 2–6 wrong | Spelling |
+| Box return times (boxes 1–5) | next round, 1, 3, 7, 14 days | box 2: 1–3 days; box 3: 2–7; box 4: 5–14; box 5: 10–60 | Spelling |
+| Box 1 words per round (most) | 3 | 1–6 | Spelling |
 | Word list 2 starts when | every list 1 word met and 8 in 10 confident | 5 in 10 – 10 in 10 | Spelling |
 | Word list mix after that | 30 : 70 (list 1 : list 2) | list 1 share 10%–50% | Spelling |
 | New rounds a day | 10 | 1–30 | Spelling |
