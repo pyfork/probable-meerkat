@@ -1,6 +1,6 @@
 # Brief: Parents, support and reviews
 
-<!-- project-lead-Opus5.5-agent, 2026-10-05. DRAFT for the owner's re-approval. Split out of the writing and spelling briefs (owner, 2026-10-04: one fact, one place).
+<!-- project-lead-Opus5.5-agent, 2026-10-05. APPROVED by the owner, 2026-10-05 ("next"). Split out of the writing and spelling briefs (owner, 2026-10-04: one fact, one place).
      Decisions: specs/decisions/parents-support-and-reviews.md. -->
 
 Words follow `specs/glossary.md`. Rules for every page are in `site-rules.md`.
