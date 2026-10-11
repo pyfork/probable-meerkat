@@ -19,6 +19,7 @@ Every brief, screen, database table and piece of code uses these words with thes
 | **Backup email** | `backup_email` | A parent's optional second email, used only to get back in when the main email is lost. | accounts-and-sign-in |
 | **Allow-list** | `admin_allowlist` | The emails that can open the admin page. Kept in the database, changed only on the server. | accounts-and-sign-in |
 | **Action log** | `action_log` | The record of every admin action, shown on the Log page. Nobody can change it. | accounts-and-sign-in |
+| **Family** | `family` | One parent's account with its child, as Admin sees it on the Parents tab. | admin-page |
 
 ## Money
 
@@ -35,6 +36,7 @@ Every brief, screen, database table and piece of code uses these words with thes
 | **Possible double payment** | `possible_double_payment` | A label: the same plan for the same child was paid again while it is active or waiting. | plans-and-payment |
 | **Refund** | `refund` | Money paid back to a parent after a cancellation or a double payment. | plans-and-payment |
 | **Refunds to pay** | `refunds_due` | Admin's list of refunds not yet sent. | admin-page |
+| **Bank-details form** | `refund_bank_details` | The private page, opened from an email and checked with an email code, where a parent gives the bank account for a refund. | plans-and-payment |
 
 ### A plan's states (`plan.state`)
 | State | Means |

@@ -20,3 +20,4 @@
 - The 30 days to pay a refund start when the parent's bank details arrive; the lawyer confirms the Terms wording. (owner gwl, 2026-10-05)
 - A parent who signs up to pay for Spelling gets the Writing trial's 72 hours from the first time the child opens Writing, not from sign-up, so the trial doesn't run out unseen (owner gwl, 2026-10-11; OQ-1 in `specs/features/sign-in-1-parents.md`).
 - A closed receipt no longer counts as sent; the pay page says "We couldn't match your receipt. Send a new one when you've paid." (owner gwl, 2026-10-11; details in `specs/decisions/verify-activate.md`).
+- A renewal that is activated but hasn't started counts as nothing used: cancelling it refunds in full, with no 5% charge (owner gwl, 2026-10-11; OQ-1 in `specs/features/admin-parents-2-money-back.md`).

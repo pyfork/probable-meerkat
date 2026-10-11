@@ -18,7 +18,7 @@ Every admin tab meets the same small problems (undoing a slip, a list on a phone
    - Every pattern works on a phone, by keyboard and with a screen reader.
 2. **Non-goals**
    - Colours, fonts and spacing. The look follows `site-rules.md` and the approved teaser.
-   - Patterns for the child's pages and the parent page, until those pages are designed. (Sign-in screens are designed: Email code, PT-53 to PT-66.)
+   - Patterns for the child's pages and the parent page, until those pages are designed. (Sign-in screens and the refund bank-details form are designed: Email code, PT-53 to PT-66.)
    - Rules for one screen only. Those live in that screen's spec.
 
 <!-- ux-designer-Opus5.5-agent, 2026-10-10. DRAFT for the owner. One entry per pattern, each written once. Screens point at
@@ -34,7 +34,7 @@ PATTERN: Admin tabs
 RULE:
 - **PT-1** Every admin screen has the tab bar at the top. The tab Admin is on is filled with colour, never outlined (`site-rules.md`).
 - **PT-2** A tab shows only once it works. Tabs not built yet are not shown.
-- **PT-3** Verify and Activate show how many rows are waiting (*Tab count*). With nothing waiting, no number shows. The numbers update by themselves; the lists don't (PT-12).
+- **PT-3** Verify and Activate show how many rows are waiting (*Tab count*). Parents shows the refunds that can be paid now plus the deletions requested (`admin-parents-1-find-a-family.md`, AC-2). With nothing waiting, no number shows. The numbers update by themselves; the lists don't (PT-12).
 - **PT-4** When the tabs don't fit on one line, they wrap onto a second line. They never scroll sideways and are never tucked into a menu.
 - **PT-5** Each tab has its own web address, so reloading or going Back keeps Admin on the same tab.
 WHY: Admin moves between Verify and Activate many times in one sitting, often on a phone. Every tab must be in sight and one tap away.
@@ -52,7 +52,7 @@ RULE:
 - **PT-10** Long values (emails, names, transaction numbers) wrap onto more lines, breaking inside the word if they have to. They are never cut off, faded out or made smaller.
 - **PT-11** An optional value that is missing says so (for example "WhatsApp: not given"), so every card has the same lines in the same order.
 WHY: The brief asks for big buttons on a phone. Keeping the key first and the buttons last means Admin's eye and thumb always go to the same places.
-USED BY: Verify, Activate. Later: every admin list.
+USED BY: Verify, Activate, Parents (search results, Refunds to pay, Deletion requested, the family page's Payments and Emails). Later: every admin list.
 EXCEPTIONS: none.
 
 ---
@@ -83,7 +83,7 @@ RULE:
 - **PT-25** Keyboard: after the action, focus moves to the slim line itself, not to its Undo button, so a second Enter does nothing. Undo is the next Tab stop. When Undo goes, focus stays on the line.
 - **PT-26** Screen reader: the line's words are read out once, politely, with how long Undo lasts (*Undo read out*). The countdown is not read out. The final result is read out once.
 WHY: Mistakes are easy on a phone. Undo fixes a mistake without slowing down every right tap with "Are you sure?". Actions that can't be undone use Typed confirmation (PT-27) instead.
-USED BY: Verify (Confirm, Close receipt), Activate (Activate, Activate several, Send back to Verify).
+USED BY: Verify (Confirm, Close receipt), Activate (Activate, Activate several, Send back to Verify), Parents (Change name, Reset placement, Move to a new email, Cancel plan, Mark refunded).
 EXCEPTIONS: none.
 
 ---
@@ -94,7 +94,7 @@ RULE:
 - **PT-28** The action button names the action (for example "Delete this family") and stays off until the typed text matches the email. Capital letters and spaces at either end don't matter. Pasting is allowed.
 - **PT-29** Closing the dialog does nothing and clears what was typed.
 WHY: The brief makes dangerous actions hard to press by accident. It guards against accidents, not strangers (Admin is already signed in), so pasting is fine.
-USED BY: Parents tab: Delete this family, Move to a new email (in their own specs, later). Not used on Verify or Activate.
+USED BY: Parents tab: Move to a new email (`admin-parents-1-find-a-family.md`), Delete this family (`admin-parents-3-delete-and-copy.md`). Not used on Verify or Activate.
 EXCEPTIONS: none.
 
 ---
@@ -107,7 +107,7 @@ RULE:
 - **PT-33** Resend sends the same email again, and the note becomes the *Resent line*. If that one doesn't arrive either, *Didn't arrive* comes back.
 - **PT-34** Whatever the email was about (an activation, a problem) stays done. Only the email is tried again.
 WHY: The usual cause is a mistyped email on the receipt form, so Admin needs to see the address and be able to choose the account email instead.
-USED BY: Verify, Activate. Later: every tab that emails parents.
+USED BY: Verify, Activate, Parents (the family page's Emails, Resend activation email, Resend link). Later: every tab that emails parents.
 EXCEPTIONS: none.
 
 ---
@@ -142,7 +142,7 @@ RULE:
 - **PT-44** A Close button (x-mark icon, 44 by 44 px) at the top right and the Escape key both close it. While it is open, focus stays inside it. When it closes, focus goes back to the button that opened it.
 - **PT-45** Everything in it can be reached by scrolling, on a short screen too. The main button sits at the end of the content, not fixed to the edge of the screen, so the phone keyboard can't cover it.
 WHY: One way in and one way out for every pop-up, on every screen size.
-USED BY: Verify (Problem with this payment, Close receipt, receipt viewer). Later: Typed confirmation and every admin dialog.
+USED BY: Verify (Problem with this payment, Close receipt, receipt viewer), Parents (Change name, Move to a new email, Cancel plan, Mark refunded, Delete this family). Later: every admin dialog.
 EXCEPTIONS: none.
 
 ---
@@ -152,7 +152,7 @@ RULE:
 - **PT-46** The picked choice fills with colour, never an outline. Up and Down move the choice; Enter or a tap picks it (`site-rules.md`).
 - **PT-47** A screen reader hears it as one group of choices, with the picked one named.
 WHY: The owner's rule for every choice list: it should feel like a proper app.
-USED BY: Verify (reason for a payment problem, reason for closing a receipt). Later: every choice list.
+USED BY: Verify (reason for a payment problem, reason for closing a receipt), the refund bank-details form (Bank). Later: every choice list.
 EXCEPTIONS: none.
 
 ---
@@ -162,7 +162,7 @@ RULE:
 - **PT-48** A label is words plus a Heroicons icon. Colour is never the only sign.
 - **PT-49** A row can carry several labels at once. They wrap onto more lines rather than hiding one another.
 WHY: Labels warn Admin before they act. A warning that is only a colour can be missed, and screen readers can't read colour.
-USED BY: Verify, Activate.
+USED BY: Verify, Activate, Parents.
 EXCEPTIONS: none.
 
 ---
@@ -203,7 +203,7 @@ RULE:
 - **PT-65** Keyboard and screen reader: focus is in the box when the screen opens, and Enter checks the code. Each message above is read out once, politely. The countdowns are not read out; *New code ready* is read out once when Send a new code appears.
 - **PT-66** The code email has the code at the start of its subject (*Code email subject*), so it can be read from the phone's notification without opening the email. The body is the *Code email body*. It never holds a link that signs anyone in.
 WHY: Wherever a parent or Admin proves an email is theirs, the code works the same way, so nobody has to learn it twice. The limits stop guessing; the clear messages stop a parent getting stuck.
-USED BY: Sign-in for parents and Admin, Can't get into my email. Later: the parent page (backup email, Sign out on all devices, Delete my account and data) and the refund bank-details form.
+USED BY: Sign-in for parents and Admin, Can't get into my email, the refund bank-details form (`admin-parents-2-money-back.md`). Later: the parent page (backup email, Sign out on all devices, Delete my account and data).
 EXCEPTIONS: Admin's code email has its own subject and words (`sign-in-2-admin.md`).
 
 ---
