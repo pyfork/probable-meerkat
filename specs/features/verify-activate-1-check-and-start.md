@@ -1,8 +1,20 @@
 # Spec: Verify and Activate, part 1 of 3: Check and start
 
 ## Problem
-1. **The problem:** The bank never tells us who paid. Admin has to match every payment by hand and then start the child's plan, often on a phone beside the bank app, where one wrong tap could confirm the wrong payment or email the wrong parent.
-2. **Why this spec exists:** To make the everyday path quick and safe: find the payment, confirm the amount seen in the bank, activate. Every tap can be undone before the parent hears anything, and the money is recorded as it really arrived.
+The bank doesn't tell us who paid, so Admin matches each payment by hand and starts the child's plan, often on a phone beside the bank app, where one wrong tap could confirm the wrong payment or email the wrong parent.
+
+### Concept checks
+1. Does the bank tell us who paid? → No.
+2. Who decides which payment a receipt belongs to: the site or Admin? → Admin (AC-16).
+3. Is Admin usually at a desk with a big screen? → No. Often a phone, or half a laptop screen (AC-45, AC-48).
+4. Admin taps Confirm. Is the parent emailed? → No (AC-13).
+5. Admin activates the wrong row and taps Undo after 10 seconds. Has the parent been emailed? → No (AC-31, PT-18).
+6. Can Admin undo once the parent has been emailed? → No (AC-33).
+7. Admin closes the page during the 30 seconds. Does the activation still happen? → Yes (PT-19).
+8. What do we record: the plan price, or the amount Admin saw in the bank? → The amount seen (AC-10).
+9. Can one payment start plans for two children? → No. One payment, one plan, one child (`plans-and-payment.md`).
+10. A parent paid too little. Does part 1 handle it? → No. Part 3 does.
+11. A new receipt arrives while Admin is about to tap. Does the list move? → No (PT-12).
 
 ## Goals and non-goals
 1. **Goals**

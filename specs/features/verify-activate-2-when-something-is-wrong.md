@@ -1,8 +1,17 @@
 # Spec: Verify and Activate, part 2 of 3: When something is wrong
 
 ## Problem
-1. **The problem:** Some payments can't simply be confirmed: the code isn't in the bank, the receipt is unreadable, or it looks like a second payment. With no way to say what's wrong, the parent waits on "still being checked" and never learns why.
-2. **Why this spec exists:** To let Admin tell the parent exactly what is wrong, check the email before it goes, and follow every receipt through to an end: confirmed, re-sent, not found or closed.
+Some payments can't simply be confirmed (the code isn't in the bank, the receipt is unreadable, it looks like a second payment), and with no way to say what's wrong, the parent waits on "still being checked" and never learns why.
+
+### Concept checks
+1. Does Admin see the email before it goes? → Yes (AC-6).
+2. Can a Problem email be undone after sending? → No. The preview is the check (AC-8).
+3. Does a Problem email take the row off Verify? → No (AC-9).
+4. The parent re-sends a receipt. Does it make a new row? → No. It joins the same row (AC-13).
+5. Does a receipt wait for ever if Admin does nothing? → No. After 14 days the parent is told (AC-17).
+6. Does Close receipt email the parent? → No (AC-30).
+7. After a Close, does the receipt still count as sent? → No (AC-20).
+8. Does Admin talk with parents on the admin page? → No. Replies stay in Admin's inbox.
 
 ## Goals and non-goals
 1. **Goals**

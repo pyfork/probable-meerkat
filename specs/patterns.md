@@ -1,8 +1,14 @@
 # Shared patterns
 
 ## Problem
-1. **The problem:** Every admin tab meets the same small problems: undoing a slip, a list on a phone, an email that bounced, a button pressed twice. Solved separately on each tab, they would behave differently, and Admin would have to learn each one again.
-2. **Why this spec exists:** To solve each of those problems once, here, so every tab uses the same answer and the admin page feels like one app, not eight.
+Every admin tab meets the same small problems (undoing a slip, a list on a phone, an email that bounced, a button pressed twice), and solved separately on each tab they would behave differently, so Admin would have to learn each one again.
+
+### Concept checks
+1. Is a pattern written once, or on every screen that uses it? → Once. Screens point at it.
+2. Does the same action give the same feedback on every tab? → Yes.
+3. Does a pattern decide colours and fonts? → No. `site-rules.md` and the teaser do.
+4. Does a list move by itself under Admin's thumb? → No (PT-12).
+5. Does an Undo depend on the page staying open? → No. The server keeps the time (PT-19).
 
 ## Goals and non-goals
 1. **Goals**

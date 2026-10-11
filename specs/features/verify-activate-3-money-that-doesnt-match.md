@@ -1,8 +1,17 @@
 # Spec: Verify and Activate, part 3 of 3: Money that doesn't match
 
 ## Problem
-1. **The problem:** Parents type the amount themselves in their bank app, so some pay too little, too much or twice. If only the plan price is recorded, the records stop matching the bank, and a refund could pay back money that never arrived.
-2. **Why this spec exists:** To record every ringgit as it really arrived, tell the parent exactly what to pay or what comes back, and make sure a refund can never be more than what reached the bank.
+Parents type the amount themselves in their bank app, so some pay too little, too much or twice, and if we record only the plan price, our records stop matching the bank and a refund could pay back money that never arrived.
+
+### Concept checks
+1. Who types the amount: the parent or the bank? → The parent.
+2. What do we record: the plan price, or what reached the bank? → What reached the bank (AC-6).
+3. A parent paid too little. Does the plan start? → No. They are asked for the rest (AC-7).
+4. A parent paid too much. Does the plan start? → Yes, and the extra is refunded (AC-8, AC-10).
+5. Does Admin type the refund amount? → No. The site works it out (AC-15).
+6. Can a refund be more than what reached the bank? → No (AC-16).
+7. Is there a 5% charge on these refunds? → No (AC-17).
+8. Do we try to stop wrong amounts on the parent's side? → No. Ruled out by the owner.
 
 ## Goals and non-goals
 1. **Goals**
