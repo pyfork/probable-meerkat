@@ -9,7 +9,7 @@ The law gives a parent the right to cancel and get unused months back within 30 
 3. A parent cancels on the first day of month 3. Does month 3 count as used? → Yes (AC-6, `plans-and-payment.md`).
 4. Does cancelling the RM59 plan end Spelling too? → Yes, with one refund (AC-10).
 5. Can Cancel plan be undone? → Yes, for 30 seconds. The email waits until then (AC-13).
-6. A renewal is activated but hasn't started. Is its refund in full, or minus 5%? → ? (decide: OQ-1)
+6. A renewal is activated but hasn't started. Is its refund in full, or minus 5%? → In full, with no 5% charge (AC-17).
 7. Do the 30 days to pay start when the plan is cancelled? → No. When the bank details arrive (AC-19).
 8. Can Admin mark a refund paid without the bank transfer reference? → No (AC-27).
 9. Are the bank details kept after the refund is sent? → No. They are deleted (AC-30).
@@ -56,7 +56,7 @@ The same as part 1, plus Choice list (PT-46, PT-47) and Email code (PT-53 to PT-
 - **AC-14** When the 30 seconds are over, the plan is cancelled. The parent gets the *Plan cancelled* email with the same figures, and, when a refund is due, the bank-details link (AC-33).
 - **AC-15** The child can go on until the last day, then the plan ends. With Ends now, the plan ends at once.
 - **AC-16** A refund above RM0 goes on Refunds to pay, waiting for bank details.
-- **AC-17** An activated renewal that hasn't started: ? (decide: OQ-1). Lean: full refund with no 5% charge, because nothing is used yet, and the child keeps the current plan.
+- **AC-17** An activated renewal that hasn't started is refunded in full, with no 5% charge, because nothing is used yet. The dialog shows *Not started* instead of the month lines, and the current plan carries on.
 
 ## Refunds to pay
 - **AC-18** Refunds to pay, at the top of the Parents tab (part 1, AC-1), lists every refund not yet sent: from Cancel plan, and from Verify and Activate (VA part 3, AC-10, AC-13).
@@ -117,6 +117,7 @@ The same as part 1, plus Choice list (PT-46, PT-47) and Email code (PT-53 to PT-
 | Full months left | Full months left: {n} | |
 | Refund working | Refund: {price} × {left} ÷ {months} − {five} = {amount} | Refund: RM59.00 × 9 ÷ 12 − RM2.95 = RM41.30 |
 | No refund due | No refund due | |
+| Not started | Not started yet: full refund, no charge | |
 | Last day | Child can go on until {date} | Child can go on until 4 Jan 2027 |
 | Ends now | Ends now. The last day, {date}, has passed. | |
 | Pay by line | Pay by: 30 days after the bank details arrive | |
@@ -188,7 +189,7 @@ The same as part 1, plus Choice list (PT-46, PT-47) and Email code (PT-53 to PT-
 | Admin pays from the bank app and marks it refunded with MB2701190042 | After 30 seconds the parent gets Refund sent; the bank details are deleted |
 | RM11 plan cancelled the day after activation | No refund due; nothing goes on Refunds to pay |
 | Admin processes a request from 20 Dec only on 6 Jan | Ends now: the last day, 4 Jan, has passed. The plan ends when the Undo is over |
-| A RM59 renewal (starts 5 Oct 2027) is cancelled on 1 Oct 2027 | OQ-1. Lean: RM59.00 in full; the current plan runs to 4 Oct 2027 |
+| A RM59 renewal (starts 5 Oct 2027) is cancelled on 1 Oct 2027 | Not started: RM59.00 in full; the current plan runs to 4 Oct 2027 |
 
 ## Open questions
-- **OQ-1** A renewal that is activated but hasn't started is cancelled. Lean: refund it in full with no 5% charge, as for cancelling before activation, because nothing is used yet. The other way: treat it like any active plan (all months left, minus 5%).
+None. (OQ-1 settled by the owner, gwl 2026-10-11: a renewal that hasn't started is refunded in full, with no 5% charge.)
