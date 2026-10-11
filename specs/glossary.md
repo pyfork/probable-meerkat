@@ -15,6 +15,10 @@ Every brief, screen, database table and piece of code uses these words with thes
 | **Admin** | `admin` | Whoever runs the admin page. Today, the owner. | admin-page |
 | **Admin page** | `admin` (area) | The private page only Admin can open. | admin-page |
 | **Parent page** | `parent_page` | The small page for parents, reached from a quiet "Parent" link. | parents-support-and-reviews |
+| **Email code** | `email_code` | The 6-digit code sent by email that proves an email is yours. It replaces a password. | accounts-and-sign-in |
+| **Backup email** | `backup_email` | A parent's optional second email, used only to get back in when the main email is lost. | accounts-and-sign-in |
+| **Allow-list** | `admin_allowlist` | The emails that can open the admin page. Kept in the database, changed only on the server. | accounts-and-sign-in |
+| **Action log** | `action_log` | The record of every admin action, shown on the Log page. Nobody can change it. | accounts-and-sign-in |
 
 ## Money
 

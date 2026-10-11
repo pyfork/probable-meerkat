@@ -9,6 +9,7 @@ Every admin tab meets the same small problems (undoing a slip, a list on a phone
 3. Does a pattern decide colours and fonts? → No. `site-rules.md` and the teaser do.
 4. Does a list move by itself under Admin's thumb? → No (PT-12).
 5. Does an Undo depend on the page staying open? → No. The server keeps the time (PT-19).
+6. Does an email code work twice? → No (PT-53).
 
 ## Goals and non-goals
 1. **Goals**
@@ -17,7 +18,7 @@ Every admin tab meets the same small problems (undoing a slip, a list on a phone
    - Every pattern works on a phone, by keyboard and with a screen reader.
 2. **Non-goals**
    - Colours, fonts and spacing. The look follows `site-rules.md` and the approved teaser.
-   - Patterns for the child's and the parent's pages, until those pages are designed.
+   - Patterns for the child's pages and the parent page, until those pages are designed. (Sign-in screens are designed: Email code, PT-53 to PT-66.)
    - Rules for one screen only. Those live in that screen's spec.
 
 <!-- ux-designer-Opus5.5-agent, 2026-10-10. DRAFT for the owner. One entry per pattern, each written once. Screens point at
@@ -185,8 +186,30 @@ EXCEPTIONS: none.
 
 ---
 
+PATTERN: Email code
+RULE:
+- **PT-53** A code is 6 digits, sent by email. It works once, for 10 minutes, and only the newest code sent to an email works (`accounts-and-sign-in.md`).
+- **PT-54** The code screen names the email the code went to (*Code sent to*) and says *Check spam*.
+- **PT-55** The code goes in one box, with the phone's number keyboard. The phone may offer to fill it in from the email. Pasting works, and spaces or dashes in what is pasted are ignored.
+- **PT-56** The code is checked as soon as the 6th digit is in. *Check code* does the same, for anyone who presses it first. While it is checked, the button shows *Checking…* and the box is locked.
+- **PT-57** A wrong code shows *Wrong code* with the tries left. The box is emptied, and focus goes back to it.
+- **PT-58** The 5th wrong try cancels the code. The screen shows *Code cancelled*, and the box is off until a new code is sent.
+- **PT-59** A code more than 10 minutes old shows *Code expired*, and the box is off until a new code is sent.
+- **PT-60** *Send a new code* appears 30 seconds after a code is sent. Until then the screen shows *New code in*, counting down. A new code cancels the one before.
+- **PT-61** At 5 codes in an hour for one email, the screen shows *Too many codes* with the minutes counting down, and Send a new code is off. When the count ends, Send a new code comes back by itself.
+- **PT-62** If the email service reports the code couldn't be delivered while the screen is open, the screen shows *Code bounced*.
+- **PT-63** Sending or checking with no internet: Buttons that change something (PT-35, PT-36). What was typed stays.
+- **PT-64** Leaving the screen (for example, to open the email app) and coming back keeps the code screen and what was typed. If the browser reloads the page, the code screen comes back for as long as the code works.
+- **PT-65** Keyboard and screen reader: focus is in the box when the screen opens, and Enter checks the code. Each message above is read out once, politely. The countdowns are not read out; *New code ready* is read out once when Send a new code appears.
+- **PT-66** The code email has the code at the start of its subject (*Code email subject*), so it can be read from the phone's notification without opening the email. The body is the *Code email body*. It never holds a link that signs anyone in.
+WHY: Wherever a parent or Admin proves an email is theirs, the code works the same way, so nobody has to learn it twice. The limits stop guessing; the clear messages stop a parent getting stuck.
+USED BY: Sign-in for parents and Admin, Can't get into my email. Later: the parent page (backup email, Sign out on all devices, Delete my account and data) and the refund bank-details form.
+EXCEPTIONS: Admin's code email has its own subject and words (`sign-in-2-admin.md`).
+
+---
+
 ## Words on screen
-`{code}` is the payment code, `{n}` a number, `{s}` the seconds left, `{date}` and `{time}` follow PT-50.
+`{code}` is the payment code (in the Email code rows, the 6-digit code), `{email}` an email, `{n}` a number, `{s}` the seconds left, `{date}` and `{time}` follow PT-50.
 
 | Name | Words | Example |
 |---|---|---|
@@ -208,3 +231,17 @@ EXCEPTIONS: none.
 | Sign in | Sign in | |
 | Loading | Loading… | |
 | Load failed | Couldn't load the list. Check your internet. | |
+| Code sent to | We sent a 6-digit code to {email} | We sent a 6-digit code to sharifah.n@yahoo.com.my |
+| Check spam | Can't see it? Check your spam folder. | |
+| Check code | Check code | |
+| Checking… | Checking… | |
+| Wrong code | That code isn't right. {n} tries left. | That code isn't right. 3 tries left. |
+| Code cancelled | Too many wrong tries. Send a new code. | |
+| Code expired | This code has expired. Send a new code. | |
+| Send a new code | Send a new code | |
+| New code in | New code in {s} s | New code in 24 s |
+| New code ready | You can send a new code now | |
+| Too many codes | Too many codes. Try again in {n} minutes. | Too many codes. Try again in 40 minutes. |
+| Code bounced | We couldn't deliver to {email}. Check it's spelled right. | |
+| Code email subject | {code} is your Learn English code | 482915 is your Learn English code |
+| Code email body | Your code is {code}. It works for 10 minutes. · Didn't ask for it? You can ignore this email. Nobody can sign in without the code. | |
