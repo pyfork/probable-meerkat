@@ -9,10 +9,11 @@ Whoever opens the admin page can confirm payments, refund money and delete famil
 3. Can the allow-list be changed on a web page? → No. Only by a command on the server (`admin-page.md`).
 4. Does an admin sign-in last 90 days, like a parent's? → No. 12 hours at most (AC-6).
 5. Does using the admin page make the 12 hours longer? → No. They count from the sign-in (AC-6).
-6. Admin signs in. Is an email sent? → Yes, every time (AC-12).
-7. Is Admin's sign-in the same as a parent sign-in on the same browser? → No. They are separate (AC-5).
-8. Can anyone change or delete a log entry? → No (AC-22).
-9. Admin gets a sign-in email that wasn't them. Can they end that sign-in from the email? → ? (decide: OQ-2)
+6. Does the site have a password? → No. Only a 6-digit email code.
+7. Admin signs in. Is an email sent? → Yes, every time (AC-12).
+8. Is Admin's sign-in the same as a parent sign-in on the same browser? → No. They are separate (AC-5).
+9. Can anyone change or delete a log entry? → No (AC-22).
+10. Admin gets a sign-in email that wasn't them. Can they end that sign-in from the email? → ? (decide: OQ-2)
 
 ## Goals and non-goals
 1. **Goals**
@@ -23,7 +24,7 @@ Whoever opens the admin page can confirm payments, refund money and delete famil
 2. **Non-goals**
    - More than one Admin login, or roles with different rights (`admin-page.md`, out of scope).
    - Changing the allow-list on a web page. It is a server command, kept in the owner's private notes (`admin-page.md`).
-   - An authenticator app or a password (`specs/decisions/accounts-and-sign-in.md`).
+   - A password for the site, or an authenticator app. Every sign-in is a 6-digit email code (`specs/decisions/accounts-and-sign-in.md`).
    - Undoing an action from the Log. Undo stays on the row where the action was done.
 
 <!-- ux-designer-Opus5.5-agent, 2026-10-11. DRAFT for the owner. Part 2 of the rules for the approved brief
@@ -100,7 +101,7 @@ Email code (PT-53 to PT-66), Admin tabs (PT-1 to PT-5), Row becomes a card (PT-6
 |---|---|---|
 | Admin code subject | {code} is your admin sign-in code | Body as the Code email body (`specs/patterns.md`) |
 | Admin alert | New sign-in to the admin page at {time} | Signed in {date}, {time} · {device and browser} · near {town}, when known |
-| Not you line | (in the Admin alert) | Not you? Change your email password now, then follow the allow-list steps in your private notes. |
+| Not you line | (in the Admin alert) | Not you? Someone can read your email inbox, because a code can only be read there. Lock your inbox now (your email provider's own settings), then follow the allow-list steps in your private notes. |
 
 ## Content for testing
 | What | Test value |
@@ -120,6 +121,6 @@ Email code (PT-53 to PT-66), Admin tabs (PT-1 to PT-5), Row becomes a card (PT-6
 | Admin searches the Log for 1601319 | Every entry for #1601319: Confirm, Activate, Undo, and so on |
 
 ## Open questions
-**OQ-2 (concept check 9): if Admin gets a sign-in email that wasn't them, can they end that sign-in from the email?**
-- **Lean: yes.** Add "Not you? End every admin sign-in" to the alert. One tap ends every admin sign-in on every device, and writes a Log entry. Admin then signs in again, changes their email password and, if needed, follows the allow-list steps. Without it, a stranger's sign-in runs for up to 12 hours, and the only stop is a server command.
+**OQ-2 (concept check 10): if Admin gets a sign-in email that wasn't them, can they end that sign-in from the email?**
+- **Lean: yes.** Add "Not you? End every admin sign-in" to the alert. One tap ends every admin sign-in on every device, and writes a Log entry. Admin then locks their email inbox (the only place a code can be read), signs in again with a new code and, if needed, follows the allow-list steps. Without it, a stranger's sign-in runs for up to 12 hours, and the only stop is a server command.
 - **Other way:** keep the alert as it is now. It tells Admin, but only the server command can stop the stranger.
