@@ -16,3 +16,4 @@
   - Download family data is one PDF; the site emails nothing, Admin replies from the inbox with it.
 - **OQ-1, cancelling a renewal that hasn't started (owner gwl, 2026-10-11):** refunded in full, with no 5% charge, as for cancelling before activation, because nothing is used yet. Changes the approved `plans-and-payment.md`.
 - **OQ-2, deleting a family with paid months left (owner gwl, 2026-10-11):** deleting cancels each plan on the date the parent asked, with the usual refund and the Plan cancelled email. The refund stays on Refunds to pay after the family is gone, as a payment record.
+- **OQ-3, placement in a copy of a family's data (owner gwl, 2026-10-11):** left out, because no level is ever shown to a parent. Added to the lawyer's pre-launch checks.

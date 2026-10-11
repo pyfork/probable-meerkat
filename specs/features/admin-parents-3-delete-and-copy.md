@@ -13,7 +13,7 @@ The law (PDPA) lets a parent ask for a copy of their data or for it to be delete
 7. Does the child's phone stay signed in after the family is deleted? → No (AC-18).
 8. Can Admin delete a family that asked by email or Report instead of the parent page? → Yes (AC-6).
 9. Does Download family data change anything? → No. It only writes a Log entry (AC-31).
-10. Does the copy show the child's placement? → ? (decide: OQ-3)
+10. Does the copy show the child's placement? → No (AC-29).
 11. Does the site email the copy to the parent? → No. Admin sends it from the inbox (AC-30).
 
 ## Goals and non-goals
@@ -73,7 +73,7 @@ The same as part 1.
 - **AC-26** It holds the child's first name and every writing answer: the date, the task as the child saw it, the answer, the stars and the feedback.
 - **AC-27** It holds every spelling round: the date, each word, and whether it was right.
 - **AC-28** It holds the plans, the payments and the refunds, with only the last 4 digits of any bank account number, and the reports and reviews the parent sent. Receipt pictures are listed, not included.
-- **AC-29** The child's placement: ? (decide: OQ-3). Lean: left out, because no level is ever shown to a parent (`writing-confidence.md`), and the lawyer confirms this before launch.
+- **AC-29** The copy leaves out the child's placement, because no level is ever shown to a parent (`writing-confidence.md`). The lawyer confirms this before launch.
 - **AC-30** The site emails nothing. Admin attaches the file to a reply from the inbox, where the conversation is (`admin-page.md`).
 - **AC-31** While the file is made, the button shows *Making the file…* (PT-35). Then the browser downloads it. If it fails: PT-36.
 
@@ -139,6 +139,4 @@ The same as part 1.
 | A parent asks for a copy of their data through Report an issue | Admin presses Download family data and replies from the inbox with the file attached |
 
 ## Open questions
-OQ-2 settled by the owner (gwl 2026-10-11): deleting cancels any plan on the date asked, with the usual refund.
-
-- **OQ-3** Does the copy of a family's data show the child's placement? Lean: no, because no level is ever shown to a parent; the lawyer confirms this before launch. The other way: include it, as data the law may count as the parent's.
+None. (OQ-2 settled by the owner, gwl 2026-10-11: deleting cancels any plan on the date asked, with the usual refund. OQ-3 settled by the owner, gwl 2026-10-11: the copy leaves out placement; the lawyer confirms.)
