@@ -17,3 +17,4 @@
 - Launch day vs soon after split (owner gwl, 2026-10-05). Admin page brief APPROVED (owner, 2026-10-05).
 - Numbers gains "Help me use" (from the writing brief's fix, 2026-10-05; check-on-change habit: told the owner).
 - Teaching settings gain box return times and box 1 words per round (from the spelling brief, 2026-10-05; owner told).
+- Verify's "Mark sorted" renamed "Close receipt", with a reason; Reports keeps "Mark sorted" (owner gwl, 2026-10-11; details in `specs/decisions/verify-activate.md`).

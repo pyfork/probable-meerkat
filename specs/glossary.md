@@ -24,6 +24,7 @@ Every brief, screen, database table and piece of code uses these words with thes
 | **Trial** | `trial` | The free start before paying. | plans-and-payment |
 | **Payment code** | `payment_code` | The parent's own code, typed in the bank's Reference box. Its last digit is a check digit. | plans-and-payment |
 | **Receipt** | `receipt` | What the parent sends after paying: the picture and the details from the form. | plans-and-payment |
+| **Closed receipt** | `receipt_closed` | A receipt Admin closed because it will never be confirmed. It no longer counts as sent. | plans-and-payment |
 | **Verified** | `verified` | Admin found the payment code in bank account transactions list and clicked Confirm. | admin-page |
 | **Activated** | `activated` | Admin clicked Activate; the plan starts that day. | admin-page |
 | **Grace time** | `grace` | The time after a trial ends when a child whose parent has sent a receipt can keep going. | plans-and-payment |

@@ -52,6 +52,7 @@ Parents pay by DuitNow QR transfer. The bank gives no automatic confirmation, so
 - Once a receipt is sent, the child can keep going for 48 hours of grace time after the trial ends.
 - If the grace time runs out before activation, the child's tasks pause. The parent sees that the payment is still being checked and the activation will be sent to their email.
 - Without a receipt, the child's tasks pause when the trial ends, and the parent sees the pay page.
+- **Closed receipt:** if Admin closes a receipt (see `admin-page.md`), it no longer counts as sent. The trial goes on if time is left; otherwise the child's tasks pause. The parent sees the pay page with the receipt form open and the line "We couldn't match your receipt. Send a new one when you've paid." until they send a new receipt.
 - Nothing the child did is ever lost.
 
 ### Plan dates
