@@ -11,3 +11,4 @@
 - Glossary holds meanings only (rules stay in the briefs); adds code names, a plan's states, a try's status, and missing words (receipt, grace time, version, flag, correction, child-safety check, fixed line, report, review, deletion request, recording). (owner gwl, 2026-10-05)
 - "Closed receipt" added (owner gwl, 2026-10-11).
 - "Email code", "Backup email", "Allow-list" and "Action log" added with the sign-in spec (2026-10-11), waiting on the owner with it.
+- **Family** (the account and its child, as Admin sees them) and **Bank-details form** added for the Parents tab (ux-designer, 2026-10-11).
