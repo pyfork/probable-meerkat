@@ -30,7 +30,7 @@ Parents pay by DuitNow QR transfer. The bank gives no automatic confirmation, so
 - **No overlapping plans:** the pay page doesn't offer a plan the child already has. On the RM59 plan, Spelling alone isn't offered and the page says "Spelling Confidence is already included in your plan".
 
 ### Free trials
-- **Writing Confidence:** 72 hours from the moment of sign-up (owner, 2026-10-05). The child gets 2 sets a day (Malaysia-time days) within those hours. The trial sets are fixed: the same 2 sets for every trial user, every day, kept separate from the paid sets so a paying child never redoes them. Feedback is still written for every trial answer.
+- **Writing Confidence:** 72 hours from the moment of sign-up (owner, 2026-10-05). A parent who signs up to pay for Spelling Confidence gets the same 72 hours, starting the first time the child opens Writing Confidence (owner gwl, 2026-10-11). The child gets 2 sets a day (Malaysia-time days) within those hours. The trial sets are fixed: the same 2 sets for every trial user, every day, kept separate from the paid sets so a paying child never redoes them. Feedback is still written for every trial answer.
 - **Spelling Confidence:** 3 rounds, 2 in Fun mode and 1 in Exam mode, with no sign-up. The rounds are fixed: the same 24 words for every trial user, every day. They mix word list 1 and word list 2 at 30 : 70 (2 or 3 list 1 words a round). The trial has the full round: help in Fun mode, the bonus round, marking and the debrief with Listen. Nothing is remembered for the child during the trial (no boxes).
 - Clearing cookies, a new browser, a new email or a VPN gives nothing new, so there is no reason to cheat a trial.
 

@@ -14,7 +14,7 @@ A parent has no password, only an email code, so the code must reach them and wo
 8. Someone has only the parent's backup email. Can they take the account at once? → No. The change waits 24 hours, and the old email can cancel it (AC-36, AC-37).
 9. Is getting back in ever impossible? → No. Admin can move the account (AC-41).
 10. Does the Spelling trial need an account? → No. The parent signs up when they pay (AC-3).
-11. A parent signs up to pay for Spelling. Do the Writing trial's 72 hours start then? → ? (decide: OQ-1)
+11. A parent signs up to pay for Spelling. Do the Writing trial's 72 hours start then? → No. They start when the child first opens Writing Confidence (AC-48).
 
 ## Goals and non-goals
 1. **Goals**
@@ -70,6 +70,7 @@ Email code (PT-53 to PT-66), Buttons that change something (PT-35 to PT-37), Tim
 - **AC-18** The child's first name takes 1 to 40 characters: letters in any language, spaces, hyphens and apostrophes. Spaces at either end are removed.
 - **AC-19** *Create account* always works when pressed. If the name is missing or not allowed, *Name needed* or *Letters only* shows under the box. If the tick is missing, *Tick needed* shows under it. Focus goes to the first thing missing.
 - **AC-20** Create account makes the account, adds the child, and signs the parent in. They land where they were going (AC-4); from "Try 3 days for free", on Writing Confidence's start screen, with the trial started (`plans-and-payment.md`).
+- **AC-48** An account made from the Spelling pay page (AC-3) starts no Writing trial at sign-up. Its 72 hours start the first time the child opens Writing Confidence (`plans-and-payment.md`).
 - **AC-21** Leaving the Welcome screen without pressing Create account makes no account. The next right code for that email opens the Welcome screen again.
 - **AC-22** New accounts from one internet address are limited, generously, to a number set on the server (it starts at 30 an hour). At the limit, Create account shows *Too many new accounts*, and what was typed stays. Signing in to an account that already exists is never stopped by this limit.
 - **AC-23** If Create account can't reach the server: PT-36. What was typed and ticked stays.
@@ -175,9 +176,8 @@ All names and emails are made up.
 | A phone last visited 1 Jan; the child opens the site on 2 Apr | Enter your email, with "You've been signed out" |
 | The parent uses Can't get into my email at 9:14pm on 11 Oct | The change takes effect at 9:14pm on 12 Oct. Until then, the old email still signs in and can cancel |
 | The real parent taps Cancel in the old email at 3pm on 12 Oct | The change never happens; the new and backup emails are told |
+| A parent signs up on the Spelling pay page on 1 Nov; the child first opens Writing at 8pm on 5 Nov | The Writing trial runs from 8pm on 5 Nov to 8pm on 8 Nov |
 | A stranger types someone else's email on Enter your email | The same screen as for anyone. The owner of that email gets a code they can ignore |
 
 ## Open questions
-**OQ-1 (concept check 11): a parent who signs up only to pay for Spelling Confidence. When do their 72 hours of Writing Confidence trial start?**
-- **Lean:** when the child first opens Writing Confidence. The brief says the trial starts with sign-up, which fits a parent who came for Writing. A Spelling parent who signs up to pay would otherwise lose the Writing trial without seeing it.
-- **Other way:** at sign-up, for everyone, exactly as the brief says. Simpler, but a Spelling parent's Writing trial runs out unseen.
+None. (OQ-1 settled by the owner, gwl 2026-10-11: a Spelling parent's Writing trial starts when the child first opens Writing Confidence.)
