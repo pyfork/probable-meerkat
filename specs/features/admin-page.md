@@ -29,7 +29,7 @@ Eight tabs: **Verify, Activate, Answers, Reviews, Reports, Numbers, Parents, Con
 - **"Receipt already used"** label when a bank transaction number has been used before.
 - **"Possible double payment"** label when the same plan for the same child is paid again while active or waiting (see `plans-and-payment.md`).
 - **"Problem with this payment"** button: Admin picks a reason (wrong amount, code not found, receipt unclear, possible double payment) and can add a note of up to 300 characters. It emails the parent the owner's fixed wording for that reason plus the note, and reopens their receipt form. The row shows what was sent and when.
-- **"Mark sorted"** clears a row once it is dealt with.
+- **"Close receipt"** takes a receipt off Verify when it will never be confirmed. Admin picks a reason (not paid yet, wrong receipt, payment not found, other). The receipt no longer counts as sent, and the parent's page asks for a new one (see `plans-and-payment.md`). Nothing is emailed.
 - A receipt still not confirmed after 14 days is marked **"Payment not found"** and the parent is emailed (see `plans-and-payment.md`).
 
 ### Activate
