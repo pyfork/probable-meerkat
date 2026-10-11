@@ -13,7 +13,8 @@ Whoever opens the admin page can confirm payments, refund money and delete famil
 7. Admin signs in. Is an email sent? → Yes, every time (AC-12).
 8. Is Admin's sign-in the same as a parent sign-in on the same browser? → No. They are separate (AC-5).
 9. Can anyone change or delete a log entry? → No (AC-22).
-10. Admin gets a sign-in email that wasn't them. Can they end that sign-in from the email? → ? (decide: OQ-2)
+10. Admin gets a sign-in email that wasn't them. Can they end that sign-in from the email? → Yes (AC-30).
+11. Does opening the email's link sign anyone out by itself? → No. Only the button on its page does (AC-31).
 
 ## Goals and non-goals
 1. **Goals**
@@ -57,7 +58,10 @@ Email code (PT-53 to PT-66), Admin tabs (PT-1 to PT-5), Row becomes a card (PT-6
 - **AC-12** Each right admin code sends the *Admin alert* to that email: the time (PT-50), the device and browser (for example "Safari on iPhone"), and the town the internet address points to, when it is known.
 - **AC-13** It is sent when the code works, not when the code is asked for.
 - **AC-14** It never holds a code or a link that signs anyone in.
-- **AC-15** The alert also says what to do if it wasn't Admin (*Not you line*).
+- **AC-15** The alert ends with *Not you line*, a link.
+- **AC-30** The link opens a page with one button, *End all button*. Pressing it ends every admin sign-in on every device, shows *All ended*, and writes a Log entry.
+- **AC-31** Opening the link alone changes nothing, because email services open links by themselves to scan them.
+- **AC-32** The link works until the sign-in it was sent for would have ended (12 hours). After that, its page shows *Link expired*.
 
 ## The Log
 - **AC-16** *Log*, at the end of the tab bar before Sign out, opens the Log page at its own address (PT-5). It is not a tab and has no count.
@@ -95,13 +99,16 @@ Email code (PT-53 to PT-66), Admin tabs (PT-1 to PT-5), Row becomes a card (PT-6
 | Clear | Clear | |
 | Deleted family | Deleted family | |
 | Log empty | Nothing in the log yet. | |
+| End all button | End every admin sign-in | |
+| All ended | Every admin sign-in has ended. | |
+| Link expired | This link has expired. | |
 
 ### Emails
 | Name | Subject | What it says |
 |---|---|---|
 | Admin code subject | {code} is your admin sign-in code | Body as the Code email body (`specs/patterns.md`) |
 | Admin alert | New sign-in to the admin page at {time} | Signed in {date}, {time} · {device and browser} · near {town}, when known |
-| Not you line | (in the Admin alert) | Not you? Someone can read your email inbox, because a code can only be read there. Lock your inbox now (your email provider's own settings), then follow the allow-list steps in your private notes. |
+| Not you line | (in the Admin alert) | Not you? End every admin sign-in (link) |
 
 ## Content for testing
 | What | Test value |
@@ -121,6 +128,4 @@ Email code (PT-53 to PT-66), Admin tabs (PT-1 to PT-5), Row becomes a card (PT-6
 | Admin searches the Log for 1601319 | Every entry for #1601319: Confirm, Activate, Undo, and so on |
 
 ## Open questions
-**OQ-2 (concept check 10): if Admin gets a sign-in email that wasn't them, can they end that sign-in from the email?**
-- **Lean: yes.** Add "Not you? End every admin sign-in" to the alert. One tap ends every admin sign-in on every device, and writes a Log entry. Admin then locks their email inbox (the only place a code can be read), signs in again with a new code and, if needed, follows the allow-list steps. Without it, a stranger's sign-in runs for up to 12 hours, and the only stop is a server command.
-- **Other way:** keep the alert as it is now. It tells Admin, but only the server command can stop the stranger.
+None. (OQ-2 settled by the owner, gwl 2026-10-11: the alert ends with a link to end every admin sign-in.)

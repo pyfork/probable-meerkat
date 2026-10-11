@@ -90,7 +90,7 @@ Email code (PT-53 to PT-66), Buttons that change something (PT-35 to PT-37), Tim
 - **AC-33** If the new email is the backup email itself, the change goes ahead, and once it takes effect the account has no backup email. The parent page then asks for one (`accounts-and-sign-in.md`).
 - **AC-34** The right code for the new email shows the *Change waiting* screen. The parent is not signed in yet.
 - **AC-35** The old main email gets the *Change notice*, with a Cancel link. The new email and the backup email get the *Change waiting email*.
-- **AC-36** The Cancel link stops the change and opens a page saying *Change cancelled*. No sign-in is needed. The new email and the backup email get the *Cancelled email*. Once the change has taken effect, the link shows *Too late to cancel* instead.
+- **AC-36** The Cancel link opens a page with one button, *Cancel button*. Opening the link alone changes nothing, because email services open links by themselves to scan them. Pressing the button stops the change and shows *Change cancelled*. No sign-in is needed. The new email and the backup email get the *Cancelled email*. Once the change has taken effect, the link shows *Too late to cancel* instead.
 - **AC-37** 24 hours after the right code for the new email, the account's main email changes. The old email gets the *Changed email*, and the new email gets the *You can sign in email*. Devices already signed in stay signed in.
 - **AC-38** Until then, signing in with the old main email still works.
 - **AC-39** An account has only one waiting change. A new one replaces it, starts the 24 hours again, and sends the Change notice again.
@@ -139,6 +139,7 @@ Email code (PT-53 to PT-66), Buttons that change something (PT-35 to PT-37), Tim
 | New email title | Your new email | |
 | Email taken | This email already has an account. Try another email. | |
 | Change waiting | Your account email changes to {email} on {date}, {time}. We've told your old email, in case this wasn't you. Sign in with {email} after that. | Your account email changes to aisyah.h@gmail.com on 12 Oct, 9:14pm. … |
+| Cancel button | Cancel the change | |
 | Change cancelled | The email change is cancelled. Your account email stays the same. | |
 | Too late to cancel | This change has already happened. Email support@puascari.com for help. | |
 

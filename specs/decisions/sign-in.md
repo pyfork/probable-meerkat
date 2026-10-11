@@ -6,6 +6,8 @@
 - Split into two parts by who signs in: part 1 Parents, part 2 Admin. The code itself is a shared pattern (Email code), because the parent page and the refund bank-details form use it too.
 - Problems open with concept checks (owner, 2026-10-11). Checks 11 (part 1) and 9 (part 2) had no answer in the brief and became OQ-1 and OQ-2.
 - **OQ-1, a Spelling parent's Writing trial (owner gwl, 2026-10-11):** a parent who signs up on the Spelling pay page gets the Writing trial's 72 hours from the first time the child opens Writing Confidence, not from sign-up, so it doesn't run out unseen. Changes the approved `plans-and-payment.md` and `accounts-and-sign-in.md`. The parent page spec (area 10) says what the parent page shows before that trial starts.
+- **OQ-2, a stranger's admin sign-in (owner gwl, 2026-10-11):** the alert ends with "Not you? End every admin sign-in". Its page has one button that ends every admin sign-in. No advice about the inbox: that isn't the site's concern (owner).
+- Email links that change something (Cancel the email change, End every admin sign-in) open a page with one button, because email services open links by themselves to scan them.
 - Choices where the brief was loose (told the owner, 2026-10-11):
   - The Privacy Notice tick and the child's first name come **after** the code, on a Welcome screen. Before the code, every email must see the same screen (brief), so the site can't yet know the email is new.
   - No account exists until Create account is pressed. Leaving the Welcome screen keeps nothing.
