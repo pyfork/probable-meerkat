@@ -72,6 +72,7 @@ Every brief, screen, database table and piece of code uses these words with thes
 | **Fixed line** | `fixed_line` | One of the owner's ready-written lines, used when the model's feedback can't be used. | writing-confidence |
 | **Flag** | `flag` | A mark that puts an answer on Admin's To check list (a copied model answer, unkind words). | writing-confidence |
 | **Report** | `report` | A message from the Report an issue form. | parents-support-and-reviews |
+| **Report number** | `report_number` | R and 5 digits, given to each report; carried in every email subject about it. | admin-reports |
 | **Review** | `review` | A parent's text or video about the product, shared only once Admin approves it. | parents-support-and-reviews |
 | **Deletion request** | `deletion_request` | A parent's "Delete my account and data", waiting for Admin to finish it. | parents-support-and-reviews |
 

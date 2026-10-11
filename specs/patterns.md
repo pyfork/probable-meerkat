@@ -34,7 +34,7 @@ PATTERN: Admin tabs
 RULE:
 - **PT-1** Every admin screen has the tab bar at the top. The tab Admin is on is filled with colour, never outlined (`site-rules.md`).
 - **PT-2** A tab shows only once it works. Tabs not built yet are not shown.
-- **PT-3** Verify and Activate show how many rows are waiting (*Tab count*). Parents shows the refunds that can be paid now plus the deletions requested (`admin-parents-1-find-a-family.md`, AC-2). With nothing waiting, no number shows. The numbers update by themselves; the lists don't (PT-12).
+- **PT-3** Verify and Activate show how many rows are waiting (*Tab count*). Parents shows the refunds that can be paid now plus the deletions requested (`admin-parents-1-find-a-family.md`, AC-2). Reports shows the reports to sort (`admin-reports.md`, AC-4). With nothing waiting, no number shows. The numbers update by themselves; the lists don't (PT-12).
 - **PT-4** When the tabs don't fit on one line, they wrap onto a second line. They never scroll sideways and are never tucked into a menu.
 - **PT-5** Each tab has its own web address, so reloading or going Back keeps Admin on the same tab.
 WHY: Admin moves between Verify and Activate many times in one sitting, often on a phone. Every tab must be in sight and one tap away.
@@ -52,7 +52,7 @@ RULE:
 - **PT-10** Long values (emails, names, transaction numbers) wrap onto more lines, breaking inside the word if they have to. They are never cut off, faded out or made smaller.
 - **PT-11** An optional value that is missing says so (for example "WhatsApp: not given"), so every card has the same lines in the same order.
 WHY: The brief asks for big buttons on a phone. Keeping the key first and the buttons last means Admin's eye and thumb always go to the same places.
-USED BY: Verify, Activate, Parents (search results, Refunds to pay, Deletion requested, the family page's Payments and Emails). Later: every admin list.
+USED BY: Verify, Activate, Parents (search results, Refunds to pay, Deletion requested, the family page's Payments and Emails), Reports. Later: every admin list.
 EXCEPTIONS: none.
 
 ---
@@ -64,7 +64,7 @@ RULE:
 - **PT-14** When there is a newer list, the *List changed bar* shows at the top of the list. The list updates when Admin taps it, changes tab or reloads the page.
 - **PT-15** A row Admin has dealt with shrinks to a slim line in the same place (PT-16) and stays there until the list updates.
 WHY: Admin taps Confirm on a phone while switching to and from the bank app. A row that jumps under the thumb could confirm the wrong payment.
-USED BY: Verify, Activate. Later: every admin list.
+USED BY: Verify, Activate, Reports. Later: every admin list.
 EXCEPTIONS: none.
 
 ---
@@ -83,7 +83,7 @@ RULE:
 - **PT-25** Keyboard: after the action, focus moves to the slim line itself, not to its Undo button, so a second Enter does nothing. Undo is the next Tab stop. When Undo goes, focus stays on the line.
 - **PT-26** Screen reader: the line's words are read out once, politely, with how long Undo lasts (*Undo read out*). The countdown is not read out. The final result is read out once.
 WHY: Mistakes are easy on a phone. Undo fixes a mistake without slowing down every right tap with "Are you sure?". Actions that can't be undone use Typed confirmation (PT-27) instead.
-USED BY: Verify (Confirm, Close receipt), Activate (Activate, Activate several, Send back to Verify), Parents (Change name, Reset placement, Move to a new email, Cancel plan, Mark refunded).
+USED BY: Verify (Confirm, Close receipt), Activate (Activate, Activate several, Send back to Verify), Parents (Change name, Reset placement, Move to a new email, Cancel plan, Mark refunded), Reports (Mark sorted, Back to To sort).
 EXCEPTIONS: none.
 
 ---
@@ -107,8 +107,8 @@ RULE:
 - **PT-33** Resend sends the same email again, and the note becomes the *Resent line*. If that one doesn't arrive either, *Didn't arrive* comes back.
 - **PT-34** Whatever the email was about (an activation, a problem) stays done. Only the email is tried again.
 WHY: The usual cause is a mistyped email on the receipt form, so Admin needs to see the address and be able to choose the account email instead.
-USED BY: Verify, Activate, Parents (the family page's Emails, Resend activation email, Resend link). Later: every tab that emails parents.
-EXCEPTIONS: none.
+USED BY: Verify, Activate, Parents (the family page's Emails, Resend activation email, Resend link), Reports (the report email to support@). Later: every tab that emails parents.
+EXCEPTIONS: Reports' email goes to support@, so Resend has no address to pick (PT-32 doesn't apply).
 
 ---
 
@@ -119,7 +119,7 @@ RULE:
 - **PT-37** If the row was already dealt with on another device, the *Done elsewhere* message says so, and the row becomes a slim line with no Undo.
 - **PT-38** If Admin's sign-in has ended (`accounts-and-sign-in.md`), the page shows *Signed out* with *Sign in*. The action was not done. After signing in, Admin is back on the same tab.
 WHY: Admin often works on a phone signal that comes and goes, and sometimes has the admin page open on two devices.
-USED BY: Verify, Activate. Later: every admin button that changes something.
+USED BY: Verify, Activate, Reports. Later: every admin button that changes something.
 EXCEPTIONS: none.
 
 ---
@@ -130,7 +130,7 @@ RULE:
 - **PT-40** Empty: one short line saying there is nothing, shown only after the list has loaded with no rows.
 - **PT-41** Load error: *Load failed* with *Try again*. Anything already on screen stays.
 WHY: One model for loading, empty and error on every list, so Admin never mistakes "still loading" or "failed" for "nothing to do".
-USED BY: Verify, Activate. Later: every admin list.
+USED BY: Verify, Activate, Reports. Later: every admin list.
 EXCEPTIONS: none.
 
 ---
@@ -162,7 +162,7 @@ RULE:
 - **PT-48** A label is words plus a Heroicons icon. Colour is never the only sign.
 - **PT-49** A row can carry several labels at once. They wrap onto more lines rather than hiding one another.
 WHY: Labels warn Admin before they act. A warning that is only a colour can be missed, and screen readers can't read colour.
-USED BY: Verify, Activate, Parents.
+USED BY: Verify, Activate, Parents, Reports.
 EXCEPTIONS: none.
 
 ---
