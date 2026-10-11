@@ -15,3 +15,4 @@
   - Delete this family is on every family page (requests also come by email or Report an issue), and is off while a payment waits on Verify or Activate. A refund still owed survives the deletion as a payment record. Searching a deleted family's payment code finds its payment records only.
   - Download family data is one PDF; the site emails nothing, Admin replies from the inbox with it.
 - **OQ-1, cancelling a renewal that hasn't started (owner gwl, 2026-10-11):** refunded in full, with no 5% charge, as for cancelling before activation, because nothing is used yet. Changes the approved `plans-and-payment.md`.
+- **OQ-2, deleting a family with paid months left (owner gwl, 2026-10-11):** deleting cancels each plan on the date the parent asked, with the usual refund and the Plan cancelled email. The refund stays on Refunds to pay after the family is gone, as a payment record.

@@ -8,7 +8,7 @@ The law (PDPA) lets a parent ask for a copy of their data or for it to be delete
 2. Are payment records deleted with the family? → No. They are kept 7 years (AC-14).
 3. Can Delete this family be undone? → No. That is why Admin types the parent's email (AC-10).
 4. Does the parent get an email once it's done? → Yes (AC-17).
-5. The family still has paid months left. Is the plan cancelled with a refund? → ? (decide: OQ-2)
+5. The family still has paid months left. Is the plan cancelled with a refund? → Yes, on the date the parent asked (AC-9).
 6. A refund is still waiting. Can it still be paid after the family is deleted? → Yes (AC-21).
 7. Does the child's phone stay signed in after the family is deleted? → No (AC-18).
 8. Can Admin delete a family that asked by email or Report instead of the parent page? → Yes (AC-6).
@@ -51,7 +51,7 @@ The same as part 1.
 - **AC-6** *Delete this family* is the last button on every family page (part 1, AC-55), whether or not the parent asked on the parent page, because some ask by email or Report an issue.
 - **AC-7** It is off, with *Payment waiting*, while the family has a receipt on Verify or a payment on Activate. Admin finishes it there first (confirm and activate, Close receipt, or Refund instead).
 - **AC-8** It opens a dialog titled *Delete title*. The dialog lists what is deleted (*Deleted list*) and what is kept and why (*Kept list*).
-- **AC-9** A family with an active plan: ? (decide: OQ-2). Lean: the dialog also shows the Cancel plan figures (part 2, AC-5 to AC-11) with Date asked set to the request date (or today), and deleting cancels the plan the same way.
+- **AC-9** A family with an active or not-yet-started plan: the dialog also shows the Cancel plan figures for each (part 2, AC-4 to AC-11, AC-17), with Date asked set to the request date, or today when there is no request. Deleting cancels each plan that way. Each refund above RM0 goes on Refunds to pay, and the parent gets the Plan cancelled email (part 2, AC-14), with its bank-details link, just before the Account deleted email.
 - **AC-10** Last comes Typed confirmation of the account email (PT-27 to PT-29). The button reads *Delete button*.
 - **AC-11** The family has an approved review: the dialog shows *Review note*, because reviews Admin posted by hand must be taken down by hand.
 - **AC-12** Pressing it shows *Deleting…* (PT-35). There is no Undo.
@@ -139,5 +139,6 @@ The same as part 1.
 | A parent asks for a copy of their data through Report an issue | Admin presses Download family data and replies from the inbox with the file attached |
 
 ## Open questions
-- **OQ-2** A parent asks to delete while their plan still has paid months left. Lean: deleting cancels the plan on the request date, with the usual refund, which stays on Refunds to pay after the family is gone. The other way: delete without a refund unless the parent also asks to cancel.
+OQ-2 settled by the owner (gwl 2026-10-11): deleting cancels any plan on the date asked, with the usual refund.
+
 - **OQ-3** Does the copy of a family's data show the child's placement? Lean: no, because no level is ever shown to a parent; the lawyer confirms this before launch. The other way: include it, as data the law may count as the parent's.
