@@ -130,3 +130,5 @@ uploads/
 # The reviewer fetches what it needs from the private kit repo.
 # Public guard files live in docs-public/guard-data/ instead.
 docs/
+# Session handoff notes are private
+README-HANDOFF-*
